@@ -1,0 +1,6655 @@
+[
+  {
+    "image_id": "val_000000",
+    "image_path": "data/generated/val/images/val_000000.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 75,
+        "source_image_path": "data/real/10_x13.137828118002005y12.14389250657203_raw.png",
+        "bbox": [
+          126,
+          461,
+          146,
+          481
+        ],
+        "mask_path": "data/generated/val/masks/val_000000_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.721121475854981,
+          "x": 122.0,
+          "y": 458.0,
+          "scale": 0.7530680864492126,
+          "angle": 5.922395233356312
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 81,
+        "source_image_path": "data/real/10_x13.137828118002005y4.34389250657203_raw.png",
+        "bbox": [
+          547,
+          324,
+          570,
+          347
+        ],
+        "mask_path": "data/generated/val/masks/val_000000_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8530384692939136,
+          "x": 546.0,
+          "y": 322.0,
+          "scale": 0.5661312583000745,
+          "angle": -18.78387204476631
+        }
+      }
+    ],
+    "hard_negatives": [
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          550,
+          358,
+          627,
+          405
+        ],
+        "alpha": 0.31099134795734196
+      },
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          474,
+          130,
+          564,
+          233
+        ],
+        "alpha": 0.26789280912843433
+      },
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          58,
+          305,
+          115,
+          404
+        ],
+        "alpha": 0.355422009932009
+      }
+    ],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 4786,
+      "background_source_image_path": "data/real/f01_2018-12-21-062002_X10_x16.258900y-0.458700_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000001",
+    "image_path": "data/generated/val/images/val_000001.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 99,
+        "source_image_path": "data/real/10_x14.187828118002004y3.04389250657203_raw.png",
+        "bbox": [
+          45,
+          469,
+          77,
+          486
+        ],
+        "mask_path": "data/generated/val/masks/val_000001_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5703824681084964,
+          "x": 41.0,
+          "y": 464.0,
+          "scale": 0.9671067674609966,
+          "angle": 8.106890793282215
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          246,
+          472,
+          306,
+          542
+        ],
+        "mask_path": "data/generated/val/masks/val_000001_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6481236785158884,
+          "x": 246.0,
+          "y": 454.0,
+          "scale": 1.0421218463977777,
+          "angle": 29.183155153387
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          415,
+          132,
+          484,
+          189
+        ],
+        "mask_path": "data/generated/val/masks/val_000001_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.782680219296576,
+          "x": 403.0,
+          "y": 124.0,
+          "scale": 0.8261438712382582,
+          "angle": -7.526239919729544
+        }
+      },
+      {
+        "instance_id": 3,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          443,
+          390,
+          500,
+          441
+        ],
+        "mask_path": "data/generated/val/masks/val_000001_inst_003.png",
+        "overlap_order": 3,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8350118861018518,
+          "x": 439.0,
+          "y": 356.0,
+          "scale": 1.5436978413869529,
+          "angle": 25.935818320728032
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 4982,
+      "background_source_image_path": "data/real/f01_2018-12-21-065159_X10_x6.775100y1.624300_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000002",
+    "image_path": "data/generated/val/images/val_000002.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          174,
+          452,
+          237,
+          498
+        ],
+        "mask_path": "data/generated/val/masks/val_000002_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8425157890126114,
+          "x": 137.0,
+          "y": 443.0,
+          "scale": 1.4251701122186144,
+          "angle": 31.22643639294425
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 72,
+        "source_image_path": "data/real/10_x13.137828118002005y10.19389250657203_raw.png",
+        "bbox": [
+          7,
+          587,
+          38,
+          608
+        ],
+        "mask_path": "data/generated/val/masks/val_000002_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5575881668112389,
+          "x": 3.0,
+          "y": 587.0,
+          "scale": 0.6692351296160699,
+          "angle": -23.39361333643214
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 5350,
+      "background_source_image_path": "data/real/f01_2018-12-21-071623_X10_x0.438200y12.943900_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000003",
+    "image_path": "data/generated/val/images/val_000003.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 7,
+        "source_image_path": "data/real/10_x1.587828118002004y2.39389250657203_raw.png",
+        "bbox": [
+          567,
+          288,
+          595,
+          318
+        ],
+        "mask_path": "data/generated/val/masks/val_000003_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5565186487977571,
+          "x": 567.0,
+          "y": 275.0,
+          "scale": 1.1075924921095421,
+          "angle": 27.927143160069974
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 128,
+        "source_image_path": "data/real/10_x2.637828118002004y6.29389250657203_raw.png",
+        "bbox": [
+          121,
+          407,
+          155,
+          451
+        ],
+        "mask_path": "data/generated/val/masks/val_000003_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.667497976030377,
+          "x": 117.0,
+          "y": 403.0,
+          "scale": 0.919980352468489,
+          "angle": 2.9822203245962786
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 100,
+        "source_image_path": "data/real/10_x14.187828118002004y3.6938925065720296_raw.png",
+        "bbox": [
+          82,
+          78,
+          118,
+          108
+        ],
+        "mask_path": "data/generated/val/masks/val_000003_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8198856205348367,
+          "x": 77.0,
+          "y": 73.0,
+          "scale": 1.4250438380578967,
+          "angle": 12.657352729652326
+        }
+      },
+      {
+        "instance_id": 3,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 98,
+        "source_image_path": "data/real/10_x14.187828118002004y2.39389250657203_raw.png",
+        "bbox": [
+          609,
+          223,
+          632,
+          243
+        ],
+        "mask_path": "data/generated/val/masks/val_000003_inst_003.png",
+        "overlap_order": 3,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.597545814470009,
+          "x": 605.0,
+          "y": 218.0,
+          "scale": 0.9888107363194544,
+          "angle": -28.110382995871213
+        }
+      },
+      {
+        "instance_id": 4,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          462,
+          491,
+          557,
+          603
+        ],
+        "mask_path": "data/generated/val/masks/val_000003_inst_004.png",
+        "overlap_order": 4,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7320173672542504,
+          "x": 448.0,
+          "y": 473.0,
+          "scale": 1.4400570474516214,
+          "angle": 9.613339315405332
+        }
+      }
+    ],
+    "hard_negatives": [
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          476,
+          92,
+          560,
+          209
+        ],
+        "alpha": 0.4541180888235411
+      },
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          295,
+          339,
+          402,
+          386
+        ],
+        "alpha": 0.3890270921239618
+      },
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          166,
+          6,
+          217,
+          92
+        ],
+        "alpha": 0.20585558543184562
+      }
+    ],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 6277,
+      "background_source_image_path": "data/real/f02_2024-12-26-174801_X100_x0.269300y38.791300_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000004",
+    "image_path": "data/generated/val/images/val_000004.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          197,
+          358,
+          237,
+          392
+        ],
+        "mask_path": "data/generated/val/masks/val_000004_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6418201607760047,
+          "x": 194.0,
+          "y": 342.0,
+          "scale": 1.1034095412091647,
+          "angle": -20.77412951826852
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 137,
+        "source_image_path": "data/real/10_x3.6878281180020043y10.19389250657203_raw.png",
+        "bbox": [
+          108,
+          543,
+          137,
+          565
+        ],
+        "mask_path": "data/generated/val/masks/val_000004_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5922872858421817,
+          "x": 108.0,
+          "y": 541.0,
+          "scale": 1.2166820154319913,
+          "angle": -11.549931898637112
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 3593,
+      "background_source_image_path": "data/real/f01_2018-12-21-052806_X10_x8.103062y1.576581_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000005",
+    "image_path": "data/generated/val/images/val_000005.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 100,
+        "source_image_path": "data/real/10_x14.187828118002004y3.6938925065720296_raw.png",
+        "bbox": [
+          185,
+          564,
+          213,
+          611
+        ],
+        "mask_path": "data/generated/val/masks/val_000005_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7116537083771451,
+          "x": 178.0,
+          "y": 559.0,
+          "scale": 1.3878215286121327,
+          "angle": -7.875164766429135
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 12,
+        "source_image_path": "data/real/10_x1.587828118002004y5.64389250657203_raw.png",
+        "bbox": [
+          204,
+          144,
+          230,
+          160
+        ],
+        "mask_path": "data/generated/val/masks/val_000005_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.796200777773365,
+          "x": 201.0,
+          "y": 138.0,
+          "scale": 0.9575330191470511,
+          "angle": -10.561522856937103
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 3740,
+      "background_source_image_path": "data/real/f01_2018-12-21-053002_X10_x12.303074y15.876594_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000006",
+    "image_path": "data/generated/val/images/val_000006.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 89,
+        "source_image_path": "data/real/10_x13.137828118002005y9.54389250657203_raw.png",
+        "bbox": [
+          36,
+          483,
+          100,
+          522
+        ],
+        "mask_path": "data/generated/val/masks/val_000006_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6920363664036464,
+          "x": 36.0,
+          "y": 471.0,
+          "scale": 0.9785696281892949,
+          "angle": 29.419774169175742
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 123,
+        "source_image_path": "data/real/10_x2.637828118002004y3.04389250657203_raw.png",
+        "bbox": [
+          341,
+          142,
+          380,
+          174
+        ],
+        "mask_path": "data/generated/val/masks/val_000006_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5214540868061399,
+          "x": 335.0,
+          "y": 136.0,
+          "scale": 1.4540868717124305,
+          "angle": -2.161031729110637
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 41,
+        "source_image_path": "data/real/10_x11.037828118002004y8.89389250657203_raw.png",
+        "bbox": [
+          614,
+          169,
+          626,
+          181
+        ],
+        "mask_path": "data/generated/val/masks/val_000006_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7656515288797646,
+          "x": 611.0,
+          "y": 166.0,
+          "scale": 0.6827333081342484,
+          "angle": -3.674969244557842
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 4823,
+      "background_source_image_path": "data/real/f01_2018-12-21-064952_X10_x0.475100y3.574300_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000007",
+    "image_path": "data/generated/val/images/val_000007.png",
+    "width": 640,
+    "height": 640,
+    "instances": [],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 5109,
+      "background_source_image_path": "data/real/f01_2018-12-21-065341_X10_x10.975100y13.974300_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000008",
+    "image_path": "data/generated/val/images/val_000008.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 91,
+        "source_image_path": "data/real/10_x14.187828118002004y-0.8561074934279702_raw.png",
+        "bbox": [
+          336,
+          591,
+          364,
+          637
+        ],
+        "mask_path": "data/generated/val/masks/val_000008_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5014737101183459,
+          "x": 336.0,
+          "y": 585.0,
+          "scale": 1.1264337607281265,
+          "angle": 7.7451783900896505
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 6,
+        "source_image_path": "data/real/10_x1.587828118002004y12.14389250657203_raw.png",
+        "bbox": [
+          109,
+          12,
+          136,
+          41
+        ],
+        "mask_path": "data/generated/val/masks/val_000008_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5240127892803,
+          "x": 104.0,
+          "y": 9.0,
+          "scale": 1.1944157888437503,
+          "angle": -12.644574000499832
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 79,
+        "source_image_path": "data/real/10_x13.137828118002005y3.04389250657203_raw.png",
+        "bbox": [
+          128,
+          509,
+          185,
+          559
+        ],
+        "mask_path": "data/generated/val/masks/val_000008_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.4714154752494754,
+          "x": 124.0,
+          "y": 501.0,
+          "scale": 1.5421333672840063,
+          "angle": -17.141128824307003
+        }
+      },
+      {
+        "instance_id": 3,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          11,
+          481,
+          77,
+          548
+        ],
+        "mask_path": "data/generated/val/masks/val_000008_inst_003.png",
+        "overlap_order": 3,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8254863783394608,
+          "x": 3.0,
+          "y": 470.0,
+          "scale": 1.3970995495063612,
+          "angle": 32.82007626030165
+        }
+      }
+    ],
+    "hard_negatives": [
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          430,
+          261,
+          492,
+          325
+        ],
+        "alpha": 0.5020498576765098
+      }
+    ],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 2287,
+      "background_source_image_path": "data/real/f01_2018-12-11-173343_X10_x5.705859y6.726619_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000009",
+    "image_path": "data/generated/val/images/val_000009.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          237,
+          114,
+          281,
+          161
+        ],
+        "mask_path": "data/generated/val/masks/val_000009_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.855105734792585,
+          "x": 207.0,
+          "y": 107.0,
+          "scale": 0.8522265590422591,
+          "angle": -6.4190866765398304
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 3829,
+      "background_source_image_path": "data/real/f01_2018-12-21-053113_X10_x15.453075y6.126576_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000010",
+    "image_path": "data/generated/val/images/val_000010.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 117,
+        "source_image_path": "data/real/10_x2.637828118002004y12.79389250657203_raw.png",
+        "bbox": [
+          395,
+          155,
+          406,
+          170
+        ],
+        "mask_path": "data/generated/val/masks/val_000010_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8474385836101438,
+          "x": 393.0,
+          "y": 152.0,
+          "scale": 0.7236226767748055,
+          "angle": -11.754432311458475
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 137,
+        "source_image_path": "data/real/10_x3.6878281180020043y10.19389250657203_raw.png",
+        "bbox": [
+          473,
+          518,
+          492,
+          531
+        ],
+        "mask_path": "data/generated/val/masks/val_000010_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.4790707307724894,
+          "x": 470.0,
+          "y": 514.0,
+          "scale": 0.6790917743180346,
+          "angle": 9.974175159604657
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          105,
+          299,
+          189,
+          395
+        ],
+        "mask_path": "data/generated/val/masks/val_000010_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.4639363163490412,
+          "x": 78.0,
+          "y": 287.0,
+          "scale": 1.3439197405043342,
+          "angle": 8.381401151355542
+        }
+      },
+      {
+        "instance_id": 3,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 41,
+        "source_image_path": "data/real/10_x11.037828118002004y8.89389250657203_raw.png",
+        "bbox": [
+          174,
+          203,
+          224,
+          276
+        ],
+        "mask_path": "data/generated/val/masks/val_000010_inst_003.png",
+        "overlap_order": 3,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5376807918684507,
+          "x": 165.0,
+          "y": 199.0,
+          "scale": 1.4176910416789446,
+          "angle": -13.851396624755099
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 710,
+      "background_source_image_path": "data/real/f01_2018-12-11-154741_X10_x14.630043y0.326465_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000011",
+    "image_path": "data/generated/val/images/val_000011.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 107,
+        "source_image_path": "data/real/10_x14.187828118002004y8.24389250657203_raw.png",
+        "bbox": [
+          81,
+          94,
+          121,
+          146
+        ],
+        "mask_path": "data/generated/val/masks/val_000011_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7731816402086211,
+          "x": 75.0,
+          "y": 88.0,
+          "scale": 1.2764490295972706,
+          "angle": -7.176844216191779
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 40,
+        "source_image_path": "data/real/10_x11.037828118002004y8.24389250657203_raw.png",
+        "bbox": [
+          123,
+          323,
+          219,
+          404
+        ],
+        "mask_path": "data/generated/val/masks/val_000011_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.69801630500132,
+          "x": 123.0,
+          "y": 323.0,
+          "scale": 1.2043707740699865,
+          "angle": -16.787618713383093
+        }
+      }
+    ],
+    "hard_negatives": [
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          192,
+          216,
+          279,
+          338
+        ],
+        "alpha": 0.3991749969248991
+      },
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          476,
+          224,
+          548,
+          343
+        ],
+        "alpha": 0.4188758469906681
+      },
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          74,
+          297,
+          126,
+          417
+        ],
+        "alpha": 0.4175326844378857
+      }
+    ],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 537,
+      "background_source_image_path": "data/real/f01_2018-12-11-154531_X10_x7.280052y13.976472_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000012",
+    "image_path": "data/generated/val/images/val_000012.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          485,
+          269,
+          530,
+          326
+        ],
+        "mask_path": "data/generated/val/masks/val_000012_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8326460792575581,
+          "x": 460.0,
+          "y": 267.0,
+          "scale": 1.07112367239323,
+          "angle": 12.872596211868363
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 79,
+        "source_image_path": "data/real/10_x13.137828118002005y3.04389250657203_raw.png",
+        "bbox": [
+          502,
+          49,
+          525,
+          80
+        ],
+        "mask_path": "data/generated/val/masks/val_000012_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5529386995893304,
+          "x": 496.0,
+          "y": 47.0,
+          "scale": 0.7440141978112549,
+          "angle": -25.638251906923266
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 114,
+        "source_image_path": "data/real/10_x2.637828118002004y10.84389250657203_raw.png",
+        "bbox": [
+          485,
+          198,
+          512,
+          223
+        ],
+        "mask_path": "data/generated/val/masks/val_000012_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.819203934967069,
+          "x": 480.0,
+          "y": 194.0,
+          "scale": 1.1421262198608504,
+          "angle": 15.308238073792666
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 43,
+      "background_source_image_path": "data/real/10_x12.087828118002005y-0.2061074934279702_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000013",
+    "image_path": "data/generated/val/images/val_000013.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          575,
+          235,
+          600,
+          263
+        ],
+        "mask_path": "data/generated/val/masks/val_000013_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6705411121557968,
+          "x": 569.0,
+          "y": 228.0,
+          "scale": 0.5598293583481073,
+          "angle": 33.23518248370068
+        }
+      }
+    ],
+    "hard_negatives": [
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          275,
+          440,
+          387,
+          499
+        ],
+        "alpha": 0.4428980868946587
+      },
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          536,
+          371,
+          620,
+          481
+        ],
+        "alpha": 0.508985172224383
+      }
+    ],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 6182,
+      "background_source_image_path": "data/real/f01_2018-12-21-074258_X10_x19.069990y13.006724_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000014",
+    "image_path": "data/generated/val/images/val_000014.png",
+    "width": 640,
+    "height": 640,
+    "instances": [],
+    "hard_negatives": [
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          35,
+          80,
+          91,
+          150
+        ],
+        "alpha": 0.2916193420065963
+      },
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          228,
+          457,
+          321,
+          545
+        ],
+        "alpha": 0.33740579159107653
+      }
+    ],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 747,
+      "background_source_image_path": "data/real/f01_2018-12-11-160402_X10_x-0.074872y10.399975_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000015",
+    "image_path": "data/generated/val/images/val_000015.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 79,
+        "source_image_path": "data/real/10_x13.137828118002005y3.04389250657203_raw.png",
+        "bbox": [
+          492,
+          224,
+          552,
+          283
+        ],
+        "mask_path": "data/generated/val/masks/val_000015_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8516186290724721,
+          "x": 487.0,
+          "y": 216.0,
+          "scale": 1.6452712447100355,
+          "angle": 29.260864341519333
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          30,
+          22,
+          104,
+          92
+        ],
+        "mask_path": "data/generated/val/masks/val_000015_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7578785943848584,
+          "x": 13.0,
+          "y": 14.0,
+          "scale": 1.3188102847694563,
+          "angle": 17.912648712009737
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          279,
+          86,
+          414,
+          220
+        ],
+        "mask_path": "data/generated/val/masks/val_000015_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7645140233596684,
+          "x": 257.0,
+          "y": 66.0,
+          "scale": 1.586861258469569,
+          "angle": 13.489737795852223
+        }
+      },
+      {
+        "instance_id": 3,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 58,
+        "source_image_path": "data/real/10_x12.087828118002005y4.34389250657203_raw.png",
+        "bbox": [
+          602,
+          106,
+          625,
+          132
+        ],
+        "mask_path": "data/generated/val/masks/val_000015_inst_003.png",
+        "overlap_order": 3,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8361691459085684,
+          "x": 600.0,
+          "y": 106.0,
+          "scale": 0.6891374396121231,
+          "angle": 31.221755561967104
+        }
+      },
+      {
+        "instance_id": 4,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 101,
+        "source_image_path": "data/real/10_x14.187828118002004y4.34389250657203_raw.png",
+        "bbox": [
+          319,
+          544,
+          344,
+          568
+        ],
+        "mask_path": "data/generated/val/masks/val_000015_inst_004.png",
+        "overlap_order": 4,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7410477996473476,
+          "x": 313.0,
+          "y": 538.0,
+          "scale": 1.5153333653554741,
+          "angle": 5.079571255448849
+        }
+      }
+    ],
+    "hard_negatives": [
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          249,
+          467,
+          294,
+          576
+        ],
+        "alpha": 0.22199226076574485
+      },
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          73,
+          234,
+          151,
+          346
+        ],
+        "alpha": 0.24839885026121974
+      }
+    ],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 4076,
+      "background_source_image_path": "data/real/f01_2018-12-21-054949_X10_x5.233135y3.559315_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000016",
+    "image_path": "data/generated/val/images/val_000016.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          539,
+          443,
+          595,
+          518
+        ],
+        "mask_path": "data/generated/val/masks/val_000016_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5286578341844557,
+          "x": 525.0,
+          "y": 434.0,
+          "scale": 1.2429861886939235,
+          "angle": 13.231127881882786
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 117,
+        "source_image_path": "data/real/10_x2.637828118002004y12.79389250657203_raw.png",
+        "bbox": [
+          120,
+          415,
+          138,
+          430
+        ],
+        "mask_path": "data/generated/val/masks/val_000016_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.690153952499242,
+          "x": 116.0,
+          "y": 413.0,
+          "scale": 0.6787890488453746,
+          "angle": 12.46622874191897
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 118,
+        "source_image_path": "data/real/10_x2.637828118002004y13.44389250657203_raw.png",
+        "bbox": [
+          183,
+          461,
+          203,
+          475
+        ],
+        "mask_path": "data/generated/val/masks/val_000016_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8203823073371765,
+          "x": 177.0,
+          "y": 459.0,
+          "scale": 0.8579951486430251,
+          "angle": 24.380710659073518
+        }
+      },
+      {
+        "instance_id": 3,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 101,
+        "source_image_path": "data/real/10_x14.187828118002004y4.34389250657203_raw.png",
+        "bbox": [
+          365,
+          41,
+          414,
+          82
+        ],
+        "mask_path": "data/generated/val/masks/val_000016_inst_003.png",
+        "overlap_order": 3,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7112294952961564,
+          "x": 365.0,
+          "y": 35.0,
+          "scale": 1.425456583247127,
+          "angle": 21.038248460702295
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 3853,
+      "background_source_image_path": "data/real/f01_2018-12-21-053132_X10_x16.503086y10.026521_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000017",
+    "image_path": "data/generated/val/images/val_000017.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          574,
+          400,
+          599,
+          423
+        ],
+        "mask_path": "data/generated/val/masks/val_000017_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7644591000989118,
+          "x": 570.0,
+          "y": 395.0,
+          "scale": 0.6898181213190995,
+          "angle": 11.358276252651724
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 8,
+        "source_image_path": "data/real/10_x1.587828118002004y3.04389250657203_raw.png",
+        "bbox": [
+          496,
+          293,
+          595,
+          496
+        ],
+        "mask_path": "data/generated/val/masks/val_000017_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7605101997486646,
+          "x": 496.0,
+          "y": 278.0,
+          "scale": 1.3574446387667547,
+          "angle": 17.644604195209432
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 850,
+      "background_source_image_path": "data/real/f01_2018-12-11-160509_X10_x4.125118y8.496199_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000018",
+    "image_path": "data/generated/val/images/val_000018.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 100,
+        "source_image_path": "data/real/10_x14.187828118002004y3.6938925065720296_raw.png",
+        "bbox": [
+          213,
+          529,
+          229,
+          543
+        ],
+        "mask_path": "data/generated/val/masks/val_000018_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8251653405735724,
+          "x": 210.0,
+          "y": 525.0,
+          "scale": 0.6762831648534886,
+          "angle": 14.371286635576341
+        }
+      }
+    ],
+    "hard_negatives": [
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          99,
+          65,
+          192,
+          155
+        ],
+        "alpha": 0.31439595036117024
+      }
+    ],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 5588,
+      "background_source_image_path": "data/real/f01_2018-12-21-071931_X10_x11.988200y2.543900_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000019",
+    "image_path": "data/generated/val/images/val_000019.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          403,
+          555,
+          434,
+          583
+        ],
+        "mask_path": "data/generated/val/masks/val_000019_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.807797440655819,
+          "x": 393.0,
+          "y": 552.0,
+          "scale": 0.8827820551810461,
+          "angle": -11.858344984064955
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          274,
+          108,
+          306,
+          153
+        ],
+        "mask_path": "data/generated/val/masks/val_000019_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.4715273900874123,
+          "x": 252.0,
+          "y": 106.0,
+          "scale": 1.1890177977823528,
+          "angle": -0.24969649755306134
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 135,
+        "source_image_path": "data/real/10_x3.6878281180020043y1.09389250657203_raw.png",
+        "bbox": [
+          297,
+          399,
+          322,
+          429
+        ],
+        "mask_path": "data/generated/val/masks/val_000019_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6219903439668666,
+          "x": 291.0,
+          "y": 397.0,
+          "scale": 1.0070775828278495,
+          "angle": -31.538176517696982
+        }
+      },
+      {
+        "instance_id": 3,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 81,
+        "source_image_path": "data/real/10_x13.137828118002005y4.34389250657203_raw.png",
+        "bbox": [
+          401,
+          135,
+          450,
+          196
+        ],
+        "mask_path": "data/generated/val/masks/val_000019_inst_003.png",
+        "overlap_order": 3,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.45491233400359526,
+          "x": 394.0,
+          "y": 130.0,
+          "scale": 1.4417497395138343,
+          "angle": -18.175551223776655
+        }
+      },
+      {
+        "instance_id": 4,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          115,
+          440,
+          226,
+          549
+        ],
+        "mask_path": "data/generated/val/masks/val_000019_inst_004.png",
+        "overlap_order": 4,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8222500007060531,
+          "x": 112.0,
+          "y": 425.0,
+          "scale": 1.2863805676119178,
+          "angle": -21.273525680181333
+        }
+      }
+    ],
+    "hard_negatives": [
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          368,
+          521,
+          462,
+          570
+        ],
+        "alpha": 0.2361467416556325
+      }
+    ],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 427,
+      "background_source_image_path": "data/real/f01_2018-12-11-154409_X10_x3.079995y3.576432_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000020",
+    "image_path": "data/generated/val/images/val_000020.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          405,
+          191,
+          538,
+          302
+        ],
+        "mask_path": "data/generated/val/masks/val_000020_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8042292553350413,
+          "x": 405.0,
+          "y": 178.0,
+          "scale": 1.4864594092028802,
+          "angle": 28.136363235135185
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 5929,
+      "background_source_image_path": "data/real/f01_2018-12-21-073933_X10_x7.519984y1.306673_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000021",
+    "image_path": "data/generated/val/images/val_000021.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 3,
+        "source_image_path": "data/real/10_x1.587828118002004y10.19389250657203_raw.png",
+        "bbox": [
+          244,
+          463,
+          265,
+          515
+        ],
+        "mask_path": "data/generated/val/masks/val_000021_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5742509921048152,
+          "x": 241.0,
+          "y": 453.0,
+          "scale": 1.317991204224066,
+          "angle": -16.968153588289617
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 106,
+        "source_image_path": "data/real/10_x14.187828118002004y7.593892506572031_raw.png",
+        "bbox": [
+          390,
+          293,
+          429,
+          334
+        ],
+        "mask_path": "data/generated/val/masks/val_000021_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5234311444713513,
+          "x": 385.0,
+          "y": 288.0,
+          "scale": 1.0475904569613597,
+          "angle": -10.249994069320707
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 56,
+        "source_image_path": "data/real/10_x12.087828118002005y3.04389250657203_raw.png",
+        "bbox": [
+          119,
+          462,
+          158,
+          500
+        ],
+        "mask_path": "data/generated/val/masks/val_000021_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8977289172611347,
+          "x": 113.0,
+          "y": 455.0,
+          "scale": 1.2745703966612507,
+          "angle": -11.864433671443296
+        }
+      },
+      {
+        "instance_id": 3,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 129,
+        "source_image_path": "data/real/10_x2.637828118002004y6.9438925065720305_raw.png",
+        "bbox": [
+          272,
+          69,
+          294,
+          91
+        ],
+        "mask_path": "data/generated/val/masks/val_000021_inst_003.png",
+        "overlap_order": 3,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6667313798999873,
+          "x": 265.0,
+          "y": 65.0,
+          "scale": 1.4063851521528021,
+          "angle": 23.842089660182534
+        }
+      }
+    ],
+    "hard_negatives": [
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          243,
+          468,
+          334,
+          588
+        ],
+        "alpha": 0.45958924790127736
+      },
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          261,
+          227,
+          350,
+          314
+        ],
+        "alpha": 0.22000815437794774
+      },
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          2,
+          152,
+          103,
+          200
+        ],
+        "alpha": 0.510996838273495
+      }
+    ],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 6174,
+      "background_source_image_path": "data/real/f01_2018-12-21-074251_X10_x19.070003y7.156742_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000022",
+    "image_path": "data/generated/val/images/val_000022.png",
+    "width": 640,
+    "height": 640,
+    "instances": [],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 347,
+      "background_source_image_path": "data/real/f01_2018-12-11-154319_X10_x-0.069978y12.022012_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000023",
+    "image_path": "data/generated/val/images/val_000023.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 137,
+        "source_image_path": "data/real/10_x3.6878281180020043y10.19389250657203_raw.png",
+        "bbox": [
+          600,
+          468,
+          625,
+          486
+        ],
+        "mask_path": "data/generated/val/masks/val_000023_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.591171611888687,
+          "x": 600.0,
+          "y": 463.0,
+          "scale": 1.1158133071780503,
+          "angle": 3.9000060331133524
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 102,
+        "source_image_path": "data/real/10_x14.187828118002004y4.99389250657203_raw.png",
+        "bbox": [
+          556,
+          400,
+          594,
+          433
+        ],
+        "mask_path": "data/generated/val/masks/val_000023_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6309450101222259,
+          "x": 550.0,
+          "y": 394.0,
+          "scale": 1.4581406782252977,
+          "angle": 2.693828729071682
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 3120,
+      "background_source_image_path": "data/real/f01_2018-12-21-051422_X10_x2.619100y4.504200_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000024",
+    "image_path": "data/generated/val/images/val_000024.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 101,
+        "source_image_path": "data/real/10_x14.187828118002004y4.34389250657203_raw.png",
+        "bbox": [
+          501,
+          413,
+          537,
+          453
+        ],
+        "mask_path": "data/generated/val/masks/val_000024_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7973638592854371,
+          "x": 501.0,
+          "y": 409.0,
+          "scale": 0.7697306958036901,
+          "angle": -31.10110939258359
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 69,
+        "source_image_path": "data/real/10_x13.137828118002005y0.44389250657202983_raw.png",
+        "bbox": [
+          553,
+          83,
+          585,
+          105
+        ],
+        "mask_path": "data/generated/val/masks/val_000024_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6187657773830852,
+          "x": 549.0,
+          "y": 81.0,
+          "scale": 0.9116286686183328,
+          "angle": -34.19555705841673
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 116,
+        "source_image_path": "data/real/10_x2.637828118002004y12.14389250657203_raw.png",
+        "bbox": [
+          374,
+          17,
+          402,
+          42
+        ],
+        "mask_path": "data/generated/val/masks/val_000024_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5680741609811448,
+          "x": 371.0,
+          "y": 12.0,
+          "scale": 1.0788139486680863,
+          "angle": -9.041050262265326
+        }
+      },
+      {
+        "instance_id": 3,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 116,
+        "source_image_path": "data/real/10_x2.637828118002004y12.14389250657203_raw.png",
+        "bbox": [
+          95,
+          94,
+          122,
+          118
+        ],
+        "mask_path": "data/generated/val/masks/val_000024_inst_003.png",
+        "overlap_order": 3,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7959200854484583,
+          "x": 92.0,
+          "y": 91.0,
+          "scale": 0.758520405384114,
+          "angle": -22.928820145191448
+        }
+      },
+      {
+        "instance_id": 4,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 114,
+        "source_image_path": "data/real/10_x2.637828118002004y10.84389250657203_raw.png",
+        "bbox": [
+          108,
+          241,
+          157,
+          288
+        ],
+        "mask_path": "data/generated/val/masks/val_000024_inst_004.png",
+        "overlap_order": 4,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6561196929170326,
+          "x": 104.0,
+          "y": 233.0,
+          "scale": 1.4893577715783914,
+          "angle": 13.04865003412739
+        }
+      }
+    ],
+    "hard_negatives": [
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          93,
+          93,
+          209,
+          151
+        ],
+        "alpha": 0.36010582577221995
+      },
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          104,
+          516,
+          174,
+          583
+        ],
+        "alpha": 0.4403677495829594
+      },
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          453,
+          233,
+          499,
+          291
+        ],
+        "alpha": 0.28873543137649366
+      }
+    ],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 5596,
+      "background_source_image_path": "data/real/f01_2018-12-21-071937_X10_x13.038200y1.243900_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000025",
+    "image_path": "data/generated/val/images/val_000025.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 78,
+        "source_image_path": "data/real/10_x13.137828118002005y2.39389250657203_raw.png",
+        "bbox": [
+          495,
+          62,
+          525,
+          99
+        ],
+        "mask_path": "data/generated/val/masks/val_000025_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5123262358550271,
+          "x": 488.0,
+          "y": 57.0,
+          "scale": 1.4172455421674264,
+          "angle": 5.107104003765234
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 114,
+        "source_image_path": "data/real/10_x2.637828118002004y10.84389250657203_raw.png",
+        "bbox": [
+          114,
+          568,
+          158,
+          602
+        ],
+        "mask_path": "data/generated/val/masks/val_000025_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8619835306012187,
+          "x": 109.0,
+          "y": 563.0,
+          "scale": 1.1652642438959626,
+          "angle": -1.1050592276316773
+        }
+      }
+    ],
+    "hard_negatives": [
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          21,
+          76,
+          122,
+          176
+        ],
+        "alpha": 0.539307953554772
+      },
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          57,
+          282,
+          137,
+          381
+        ],
+        "alpha": 0.3966177162693253
+      },
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          13,
+          488,
+          114,
+          542
+        ],
+        "alpha": 0.42863396427304573
+      }
+    ],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 3143,
+      "background_source_image_path": "data/real/f01_2018-12-21-051441_X10_x3.669100y9.704200_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000026",
+    "image_path": "data/generated/val/images/val_000026.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 4,
+        "source_image_path": "data/real/10_x1.587828118002004y10.84389250657203_raw.png",
+        "bbox": [
+          111,
+          400,
+          162,
+          474
+        ],
+        "mask_path": "data/generated/val/masks/val_000026_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7799898530744055,
+          "x": 99.0,
+          "y": 395.0,
+          "scale": 1.4948473173189376,
+          "angle": -15.54586442349558
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 74,
+        "source_image_path": "data/real/10_x13.137828118002005y11.49389250657203_raw.png",
+        "bbox": [
+          309,
+          43,
+          339,
+          86
+        ],
+        "mask_path": "data/generated/val/masks/val_000026_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6272354501345779,
+          "x": 298.0,
+          "y": 43.0,
+          "scale": 1.3730198947286933,
+          "angle": 29.760135234689745
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          202,
+          311,
+          248,
+          365
+        ],
+        "mask_path": "data/generated/val/masks/val_000026_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5617464601278892,
+          "x": 193.0,
+          "y": 285.0,
+          "scale": 1.3582769563079797,
+          "angle": -31.7499271776686
+        }
+      },
+      {
+        "instance_id": 3,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 2,
+        "source_image_path": "data/real/10_x1.587828118002004y1.7438925065720299_raw.png",
+        "bbox": [
+          90,
+          492,
+          113,
+          552
+        ],
+        "mask_path": "data/generated/val/masks/val_000026_inst_003.png",
+        "overlap_order": 3,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8189939841295537,
+          "x": 83.0,
+          "y": 490.0,
+          "scale": 0.8581761444590041,
+          "angle": 7.722521822274169
+        }
+      },
+      {
+        "instance_id": 4,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          558,
+          20,
+          585,
+          49
+        ],
+        "mask_path": "data/generated/val/masks/val_000026_inst_004.png",
+        "overlap_order": 4,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7526309470771503,
+          "x": 555.0,
+          "y": 15.0,
+          "scale": 0.559660272019794,
+          "angle": 22.015623567513263
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 6351,
+      "background_source_image_path": "data/real/f1_2018-10-11-212009_X10_x0y0_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000027",
+    "image_path": "data/generated/val/images/val_000027.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 7,
+        "source_image_path": "data/real/10_x1.587828118002004y2.39389250657203_raw.png",
+        "bbox": [
+          521,
+          396,
+          550,
+          429
+        ],
+        "mask_path": "data/generated/val/masks/val_000027_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6028067244456082,
+          "x": 517.0,
+          "y": 393.0,
+          "scale": 1.0937971851886108,
+          "angle": -24.63894079668255
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 72,
+        "source_image_path": "data/real/10_x13.137828118002005y10.19389250657203_raw.png",
+        "bbox": [
+          292,
+          342,
+          322,
+          382
+        ],
+        "mask_path": "data/generated/val/masks/val_000027_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8302024847862706,
+          "x": 284.0,
+          "y": 340.0,
+          "scale": 1.5924993218090358,
+          "angle": 18.917098773638795
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          516,
+          173,
+          554,
+          200
+        ],
+        "mask_path": "data/generated/val/masks/val_000027_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.549708241642453,
+          "x": 487.0,
+          "y": 164.0,
+          "scale": 0.8314953559426359,
+          "angle": 13.88280990552939
+        }
+      },
+      {
+        "instance_id": 3,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          44,
+          388,
+          86,
+          429
+        ],
+        "mask_path": "data/generated/val/masks/val_000027_inst_003.png",
+        "overlap_order": 3,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5381745523005097,
+          "x": 29.0,
+          "y": 384.0,
+          "scale": 0.9884691832085186,
+          "angle": -1.2057739968815817
+        }
+      },
+      {
+        "instance_id": 4,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 122,
+        "source_image_path": "data/real/10_x2.637828118002004y2.39389250657203_raw.png",
+        "bbox": [
+          440,
+          552,
+          454,
+          571
+        ],
+        "mask_path": "data/generated/val/masks/val_000027_inst_004.png",
+        "overlap_order": 4,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5797705469847164,
+          "x": 435.0,
+          "y": 547.0,
+          "scale": 1.1461875673861688,
+          "angle": 5.715287285722414
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 4678,
+      "background_source_image_path": "data/real/f01_2018-12-21-061836_X10_x13.108900y6.691300_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000028",
+    "image_path": "data/generated/val/images/val_000028.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 125,
+        "source_image_path": "data/real/10_x2.637828118002004y4.34389250657203_raw.png",
+        "bbox": [
+          233,
+          512,
+          249,
+          528
+        ],
+        "mask_path": "data/generated/val/masks/val_000028_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.634108401895465,
+          "x": 230.0,
+          "y": 507.0,
+          "scale": 0.6456916250778042,
+          "angle": -32.77765893542527
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 1663,
+      "background_source_image_path": "data/real/f01_2018-12-11-165655_X10_x18.900000y11.050200_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000029",
+    "image_path": "data/generated/val/images/val_000029.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 81,
+        "source_image_path": "data/real/10_x13.137828118002005y4.34389250657203_raw.png",
+        "bbox": [
+          41,
+          97,
+          98,
+          178
+        ],
+        "mask_path": "data/generated/val/masks/val_000029_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.836019168313166,
+          "x": 37.0,
+          "y": 90.0,
+          "scale": 1.456995641836795,
+          "angle": 34.36781463298907
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 73,
+        "source_image_path": "data/real/10_x13.137828118002005y10.84389250657203_raw.png",
+        "bbox": [
+          562,
+          441,
+          592,
+          467
+        ],
+        "mask_path": "data/generated/val/masks/val_000029_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5124321847083898,
+          "x": 562.0,
+          "y": 438.0,
+          "scale": 1.2361251031828489,
+          "angle": -19.69380671680219
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 98,
+        "source_image_path": "data/real/10_x14.187828118002004y2.39389250657203_raw.png",
+        "bbox": [
+          571,
+          23,
+          614,
+          65
+        ],
+        "mask_path": "data/generated/val/masks/val_000029_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7339846957659956,
+          "x": 560.0,
+          "y": 19.0,
+          "scale": 1.4894500639142911,
+          "angle": -22.560274366463215
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 3673,
+      "background_source_image_path": "data/real/f01_2018-12-21-052910_X10_x10.203027y13.276568_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000030",
+    "image_path": "data/generated/val/images/val_000030.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 87,
+        "source_image_path": "data/real/10_x13.137828118002005y8.24389250657203_raw.png",
+        "bbox": [
+          555,
+          96,
+          582,
+          132
+        ],
+        "mask_path": "data/generated/val/masks/val_000030_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8787800795694892,
+          "x": 551.0,
+          "y": 95.0,
+          "scale": 0.9602974036346834,
+          "angle": -7.549382744152302
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 270,
+      "background_source_image_path": "data/real/10_x8.937828118002004y5.64389250657203_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000031",
+    "image_path": "data/generated/val/images/val_000031.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 81,
+        "source_image_path": "data/real/10_x13.137828118002005y4.34389250657203_raw.png",
+        "bbox": [
+          269,
+          311,
+          300,
+          340
+        ],
+        "mask_path": "data/generated/val/masks/val_000031_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8142193203627908,
+          "x": 269.0,
+          "y": 308.0,
+          "scale": 0.6000399578228643,
+          "angle": 34.071785257291296
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          299,
+          314,
+          333,
+          345
+        ],
+        "mask_path": "data/generated/val/masks/val_000031_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8977822640130759,
+          "x": 283.0,
+          "y": 311.0,
+          "scale": 0.6438806055196822,
+          "angle": -15.088535696988428
+        }
+      }
+    ],
+    "hard_negatives": [
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          158,
+          150,
+          234,
+          221
+        ],
+        "alpha": 0.41744519457766954
+      },
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          99,
+          285,
+          152,
+          338
+        ],
+        "alpha": 0.2542756478405408
+      },
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          33,
+          52,
+          136,
+          145
+        ],
+        "alpha": 0.416448822403314
+      }
+    ],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 1405,
+      "background_source_image_path": "data/real/f01_2018-12-11-165346_X10_x9.450000y4.550200_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000032",
+    "image_path": "data/generated/val/images/val_000032.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 72,
+        "source_image_path": "data/real/10_x13.137828118002005y10.19389250657203_raw.png",
+        "bbox": [
+          116,
+          381,
+          205,
+          470
+        ],
+        "mask_path": "data/generated/val/masks/val_000032_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5295579755942195,
+          "x": 116.0,
+          "y": 365.0,
+          "scale": 1.5507409871902478,
+          "angle": -27.813422610628596
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 870,
+      "background_source_image_path": "data/real/f01_2018-12-11-160523_X10_x5.175168y13.000035_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000033",
+    "image_path": "data/generated/val/images/val_000033.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          184,
+          99,
+          283,
+          187
+        ],
+        "mask_path": "data/generated/val/masks/val_000033_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7785533082290508,
+          "x": 159.0,
+          "y": 92.0,
+          "scale": 1.618313010940429,
+          "angle": -27.73754431450203
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          101,
+          80,
+          150,
+          155
+        ],
+        "mask_path": "data/generated/val/masks/val_000033_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8368560800612821,
+          "x": 77.0,
+          "y": 77.0,
+          "scale": 0.980043597452104,
+          "angle": -2.3491802710576737
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 17,
+        "source_image_path": "data/real/10_x1.587828118002004y8.89389250657203_raw.png",
+        "bbox": [
+          604,
+          553,
+          614,
+          561
+        ],
+        "mask_path": "data/generated/val/masks/val_000033_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5577866283922962,
+          "x": 601.0,
+          "y": 550.0,
+          "scale": 0.6431681742161356,
+          "angle": 5.976585858734001
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 774,
+      "background_source_image_path": "data/real/f01_2018-12-11-160418_X10_x0.975173y7.793882_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000034",
+    "image_path": "data/generated/val/images/val_000034.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 31,
+        "source_image_path": "data/real/10_x11.037828118002004y2.39389250657203_raw.png",
+        "bbox": [
+          89,
+          432,
+          128,
+          474
+        ],
+        "mask_path": "data/generated/val/masks/val_000034_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6693520586053677,
+          "x": 83.0,
+          "y": 426.0,
+          "scale": 1.421054177463392,
+          "angle": 0.6782924600811724
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 39,
+        "source_image_path": "data/real/10_x11.037828118002004y7.593892506572031_raw.png",
+        "bbox": [
+          89,
+          505,
+          115,
+          536
+        ],
+        "mask_path": "data/generated/val/masks/val_000034_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5425617974009225,
+          "x": 84.0,
+          "y": 500.0,
+          "scale": 1.1702753792112748,
+          "angle": 2.874609762032544
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 16,
+        "source_image_path": "data/real/10_x1.587828118002004y8.24389250657203_raw.png",
+        "bbox": [
+          509,
+          354,
+          520,
+          362
+        ],
+        "mask_path": "data/generated/val/masks/val_000034_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.46070539759193024,
+          "x": 507.0,
+          "y": 350.0,
+          "scale": 0.6927019294382037,
+          "angle": -17.65242614427784
+        }
+      },
+      {
+        "instance_id": 3,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          117,
+          387,
+          172,
+          440
+        ],
+        "mask_path": "data/generated/val/masks/val_000034_inst_003.png",
+        "overlap_order": 3,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.48483391788945146,
+          "x": 101.0,
+          "y": 378.0,
+          "scale": 0.7726934559961438,
+          "angle": -30.14943985860538
+        }
+      }
+    ],
+    "hard_negatives": [
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          424,
+          562,
+          517,
+          622
+        ],
+        "alpha": 0.48123755243586114
+      },
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          243,
+          229,
+          340,
+          278
+        ],
+        "alpha": 0.4467795510867205
+      }
+    ],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 2531,
+      "background_source_image_path": "data/real/f01_2018-12-11-173637_X10_x15.155919y16.476661_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000035",
+    "image_path": "data/generated/val/images/val_000035.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 6,
+        "source_image_path": "data/real/10_x1.587828118002004y12.14389250657203_raw.png",
+        "bbox": [
+          160,
+          305,
+          200,
+          364
+        ],
+        "mask_path": "data/generated/val/masks/val_000035_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8015895265960958,
+          "x": 152.0,
+          "y": 305.0,
+          "scale": 1.185763435901974,
+          "angle": -21.42779222268055
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 80,
+        "source_image_path": "data/real/10_x13.137828118002005y3.6938925065720296_raw.png",
+        "bbox": [
+          438,
+          580,
+          482,
+          612
+        ],
+        "mask_path": "data/generated/val/masks/val_000035_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8953287428358268,
+          "x": 434.0,
+          "y": 573.0,
+          "scale": 1.5351116014682777,
+          "angle": 16.31369208800838
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 68,
+        "source_image_path": "data/real/10_x13.137828118002005y-0.8561074934279702_raw.png",
+        "bbox": [
+          361,
+          557,
+          433,
+          597
+        ],
+        "mask_path": "data/generated/val/masks/val_000035_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.48339627514701433,
+          "x": 342.0,
+          "y": 557.0,
+          "scale": 1.1816465424941986,
+          "angle": 32.33318949934228
+        }
+      },
+      {
+        "instance_id": 3,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 43,
+        "source_image_path": "data/real/10_x12.087828118002005y-0.2061074934279702_raw.png",
+        "bbox": [
+          467,
+          626,
+          484,
+          635
+        ],
+        "mask_path": "data/generated/val/masks/val_000035_inst_003.png",
+        "overlap_order": 3,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6344495952719976,
+          "x": 463.0,
+          "y": 622.0,
+          "scale": 0.7662210763647295,
+          "angle": 2.714281667466701
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 1214,
+      "background_source_image_path": "data/real/f01_2018-12-11-165129_X10_x3.150000y17.523200_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000036",
+    "image_path": "data/generated/val/images/val_000036.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          34,
+          569,
+          82,
+          628
+        ],
+        "mask_path": "data/generated/val/masks/val_000036_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8379615400240886,
+          "x": 10.0,
+          "y": 567.0,
+          "scale": 1.3031623727781272,
+          "angle": -1.7535722840061563
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          110,
+          102,
+          126,
+          119
+        ],
+        "mask_path": "data/generated/val/masks/val_000036_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8173974525752308,
+          "x": 106.0,
+          "y": 90.0,
+          "scale": 0.5915081471187085,
+          "angle": -23.966451863462623
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 5020,
+      "background_source_image_path": "data/real/f01_2018-12-21-065229_X10_x7.825100y7.474300_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000037",
+    "image_path": "data/generated/val/images/val_000037.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 2,
+        "source_image_path": "data/real/10_x1.587828118002004y1.7438925065720299_raw.png",
+        "bbox": [
+          513,
+          304,
+          540,
+          342
+        ],
+        "mask_path": "data/generated/val/masks/val_000037_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5325882042124774,
+          "x": 501.0,
+          "y": 302.0,
+          "scale": 1.515052086204024,
+          "angle": 26.353457564220495
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 64,
+        "source_image_path": "data/real/10_x12.087828118002005y8.24389250657203_raw.png",
+        "bbox": [
+          344,
+          2,
+          382,
+          41
+        ],
+        "mask_path": "data/generated/val/masks/val_000037_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5945147452792597,
+          "x": 344.0,
+          "y": 2.0,
+          "scale": 0.5649397445981764,
+          "angle": -8.106842425370075
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 80,
+        "source_image_path": "data/real/10_x13.137828118002005y3.6938925065720296_raw.png",
+        "bbox": [
+          446,
+          6,
+          477,
+          36
+        ],
+        "mask_path": "data/generated/val/masks/val_000037_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.854516911129318,
+          "x": 441.0,
+          "y": 2.0,
+          "scale": 1.3709967208644722,
+          "angle": -15.126780079102195
+        }
+      },
+      {
+        "instance_id": 3,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 123,
+        "source_image_path": "data/real/10_x2.637828118002004y3.04389250657203_raw.png",
+        "bbox": [
+          107,
+          11,
+          200,
+          92
+        ],
+        "mask_path": "data/generated/val/masks/val_000037_inst_003.png",
+        "overlap_order": 3,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6076332530411045,
+          "x": 83.0,
+          "y": 9.0,
+          "scale": 1.5311183533922395,
+          "angle": 29.213582107775025
+        }
+      },
+      {
+        "instance_id": 4,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          386,
+          198,
+          439,
+          248
+        ],
+        "mask_path": "data/generated/val/masks/val_000037_inst_004.png",
+        "overlap_order": 4,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8791239150435671,
+          "x": 371.0,
+          "y": 194.0,
+          "scale": 1.126601421827652,
+          "angle": 5.942088550921593
+        }
+      }
+    ],
+    "hard_negatives": [
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          140,
+          386,
+          247,
+          498
+        ],
+        "alpha": 0.2426546696631506
+      }
+    ],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 983,
+      "background_source_image_path": "data/real/f01_2018-12-11-160635_X10_x9.375134y5.850009_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000038",
+    "image_path": "data/generated/val/images/val_000038.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          221,
+          266,
+          285,
+          328
+        ],
+        "mask_path": "data/generated/val/masks/val_000038_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5548551499144825,
+          "x": 205.0,
+          "y": 239.0,
+          "scale": 1.0904616502014297,
+          "angle": -13.486795832946502
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 28,
+        "source_image_path": "data/real/10_x11.037828118002004y13.44389250657203_raw.png",
+        "bbox": [
+          227,
+          419,
+          287,
+          449
+        ],
+        "mask_path": "data/generated/val/masks/val_000038_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5569806512373905,
+          "x": 219.0,
+          "y": 411.0,
+          "scale": 1.5363977587839812,
+          "angle": 15.193706700115783
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 10,
+        "source_image_path": "data/real/10_x1.587828118002004y4.34389250657203_raw.png",
+        "bbox": [
+          239,
+          506,
+          267,
+          539
+        ],
+        "mask_path": "data/generated/val/masks/val_000038_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5598617124410263,
+          "x": 235.0,
+          "y": 501.0,
+          "scale": 1.1829683963258082,
+          "angle": 22.58546174914177
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 937,
+      "background_source_image_path": "data/real/f01_2018-12-11-160604_X10_x7.275127y3.246482_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000039",
+    "image_path": "data/generated/val/images/val_000039.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 10,
+        "source_image_path": "data/real/10_x1.587828118002004y4.34389250657203_raw.png",
+        "bbox": [
+          312,
+          241,
+          344,
+          260
+        ],
+        "mask_path": "data/generated/val/masks/val_000039_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7069554833215551,
+          "x": 306.0,
+          "y": 235.0,
+          "scale": 1.4042807701826197,
+          "angle": -0.49163385068865084
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          434,
+          376,
+          490,
+          430
+        ],
+        "mask_path": "data/generated/val/masks/val_000039_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.47498069884430666,
+          "x": 430.0,
+          "y": 349.0,
+          "scale": 1.1995695377786162,
+          "angle": 26.02319937031168
+        }
+      }
+    ],
+    "hard_negatives": [
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          141,
+          94,
+          236,
+          167
+        ],
+        "alpha": 0.5229938490218918
+      }
+    ],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 6339,
+      "background_source_image_path": "data/real/f09_2024-12-31-162009_X50_x6.623900y6.292900_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000040",
+    "image_path": "data/generated/val/images/val_000040.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          197,
+          319,
+          269,
+          407
+        ],
+        "mask_path": "data/generated/val/masks/val_000040_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5763297580589677,
+          "x": 184.0,
+          "y": 314.0,
+          "scale": 0.9018094874507714,
+          "angle": -9.841272880959195
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 101,
+        "source_image_path": "data/real/10_x14.187828118002004y4.34389250657203_raw.png",
+        "bbox": [
+          521,
+          416,
+          559,
+          449
+        ],
+        "mask_path": "data/generated/val/masks/val_000040_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8286774634230113,
+          "x": 521.0,
+          "y": 412.0,
+          "scale": 1.1579468289570418,
+          "angle": 28.8700462897183
+        }
+      }
+    ],
+    "hard_negatives": [
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          541,
+          79,
+          615,
+          193
+        ],
+        "alpha": 0.4522877242693008
+      }
+    ],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 1346,
+      "background_source_image_path": "data/real/f01_2018-12-11-165302_X10_x7.350000y5.850200_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000041",
+    "image_path": "data/generated/val/images/val_000041.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 116,
+        "source_image_path": "data/real/10_x2.637828118002004y12.14389250657203_raw.png",
+        "bbox": [
+          199,
+          199,
+          226,
+          227
+        ],
+        "mask_path": "data/generated/val/masks/val_000041_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6776074035017468,
+          "x": 195.0,
+          "y": 196.0,
+          "scale": 0.8220837919509405,
+          "angle": 24.543801234598092
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          101,
+          229,
+          187,
+          325
+        ],
+        "mask_path": "data/generated/val/masks/val_000041_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.46777077440480086,
+          "x": 78.0,
+          "y": 220.0,
+          "scale": 1.4286095280155373,
+          "angle": -23.838097303282108
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          153,
+          384,
+          213,
+          439
+        ],
+        "mask_path": "data/generated/val/masks/val_000041_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5935820199086251,
+          "x": 112.0,
+          "y": 382.0,
+          "scale": 1.602452793517413,
+          "angle": -31.477523813299037
+        }
+      }
+    ],
+    "hard_negatives": [
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          487,
+          211,
+          606,
+          336
+        ],
+        "alpha": 0.21103067778308754
+      }
+    ],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 5061,
+      "background_source_image_path": "data/real/f01_2018-12-21-065302_X10_x9.925100y15.924300_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000042",
+    "image_path": "data/generated/val/images/val_000042.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          285,
+          147,
+          322,
+          190
+        ],
+        "mask_path": "data/generated/val/masks/val_000042_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.863551017402303,
+          "x": 262.0,
+          "y": 143.0,
+          "scale": 0.9232680294440067,
+          "angle": -26.876889449531717
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 67,
+        "source_image_path": "data/real/10_x13.137828118002005y-0.2061074934279702_raw.png",
+        "bbox": [
+          352,
+          344,
+          362,
+          357
+        ],
+        "mask_path": "data/generated/val/masks/val_000042_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.4778875281730377,
+          "x": 349.0,
+          "y": 342.0,
+          "scale": 0.7054253411008526,
+          "angle": -9.983899784021311
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 69,
+        "source_image_path": "data/real/10_x13.137828118002005y0.44389250657202983_raw.png",
+        "bbox": [
+          178,
+          307,
+          240,
+          369
+        ],
+        "mask_path": "data/generated/val/masks/val_000042_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7217509160034047,
+          "x": 173.0,
+          "y": 302.0,
+          "scale": 1.1587163762746688,
+          "angle": 10.475436862371643
+        }
+      },
+      {
+        "instance_id": 3,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 5,
+        "source_image_path": "data/real/10_x1.587828118002004y11.49389250657203_raw.png",
+        "bbox": [
+          21,
+          71,
+          33,
+          81
+        ],
+        "mask_path": "data/generated/val/masks/val_000042_inst_003.png",
+        "overlap_order": 3,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.4562494837142006,
+          "x": 19.0,
+          "y": 66.0,
+          "scale": 0.7022661808444565,
+          "angle": -34.10645724042728
+        }
+      }
+    ],
+    "hard_negatives": [
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          345,
+          462,
+          413,
+          556
+        ],
+        "alpha": 0.521785339103416
+      },
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          365,
+          484,
+          480,
+          543
+        ],
+        "alpha": 0.2943154905563542
+      },
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          90,
+          390,
+          173,
+          502
+        ],
+        "alpha": 0.533735492882467
+      }
+    ],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 2908,
+      "background_source_image_path": "data/real/f01_2018-12-11-175530_X10_x8.423300y3.044400_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000043",
+    "image_path": "data/generated/val/images/val_000043.png",
+    "width": 640,
+    "height": 640,
+    "instances": [],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 5143,
+      "background_source_image_path": "data/real/f01_2018-12-21-065408_X10_x13.075100y0.974300_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000044",
+    "image_path": "data/generated/val/images/val_000044.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 84,
+        "source_image_path": "data/real/10_x13.137828118002005y6.29389250657203_raw.png",
+        "bbox": [
+          213,
+          383,
+          227,
+          394
+        ],
+        "mask_path": "data/generated/val/masks/val_000044_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8201714034345537,
+          "x": 209.0,
+          "y": 378.0,
+          "scale": 0.7980574162081735,
+          "angle": 13.488006036918865
+        }
+      }
+    ],
+    "hard_negatives": [
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          542,
+          217,
+          598,
+          296
+        ],
+        "alpha": 0.3108780078907018
+      },
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          49,
+          469,
+          110,
+          591
+        ],
+        "alpha": 0.22152536947865614
+      }
+    ],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 3506,
+      "background_source_image_path": "data/real/f01_2018-12-21-052658_X10_x4.953059y14.576516_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000045",
+    "image_path": "data/generated/val/images/val_000045.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 78,
+        "source_image_path": "data/real/10_x13.137828118002005y2.39389250657203_raw.png",
+        "bbox": [
+          422,
+          493,
+          450,
+          526
+        ],
+        "mask_path": "data/generated/val/masks/val_000045_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8966483068133462,
+          "x": 415.0,
+          "y": 490.0,
+          "scale": 1.0736847750488363,
+          "angle": 16.74731537871106
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 0,
+        "source_image_path": "data/real/10_x1.587828118002004y0.44389250657202983_raw.png",
+        "bbox": [
+          156,
+          199,
+          179,
+          221
+        ],
+        "mask_path": "data/generated/val/masks/val_000045_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5233908631224676,
+          "x": 151.0,
+          "y": 193.0,
+          "scale": 0.8158240459873526,
+          "angle": -31.33237324266182
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 65,
+        "source_image_path": "data/real/10_x12.087828118002005y8.89389250657203_raw.png",
+        "bbox": [
+          550,
+          295,
+          575,
+          333
+        ],
+        "mask_path": "data/generated/val/masks/val_000045_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.4729746217136861,
+          "x": 538.0,
+          "y": 292.0,
+          "scale": 1.5376905876934306,
+          "angle": 32.71984215903047
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 1738,
+      "background_source_image_path": "data/real/f01_2018-12-11-171507_X10_x1.592839y7.482461_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000046",
+    "image_path": "data/generated/val/images/val_000046.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          106,
+          525,
+          138,
+          555
+        ],
+        "mask_path": "data/generated/val/masks/val_000046_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5432611435825506,
+          "x": 67.0,
+          "y": 520.0,
+          "scale": 1.0286615747895922,
+          "angle": -7.771705943472885
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 724,
+      "background_source_image_path": "data/real/f01_2018-12-11-154752_X10_x15.679970y12.676449_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000047",
+    "image_path": "data/generated/val/images/val_000047.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 9,
+        "source_image_path": "data/real/10_x1.587828118002004y3.6938925065720296_raw.png",
+        "bbox": [
+          541,
+          534,
+          592,
+          562
+        ],
+        "mask_path": "data/generated/val/masks/val_000047_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5270717366998751,
+          "x": 539.0,
+          "y": 528.0,
+          "scale": 0.6732120879835085,
+          "angle": -10.30036132195302
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          320,
+          323,
+          341,
+          341
+        ],
+        "mask_path": "data/generated/val/masks/val_000047_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6855096804906141,
+          "x": 317.0,
+          "y": 302.0,
+          "scale": 0.5675975556874928,
+          "angle": -12.336882673920961
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 3350,
+      "background_source_image_path": "data/real/f01_2018-12-21-052455_X10_x-0.296906y4.826546_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000048",
+    "image_path": "data/generated/val/images/val_000048.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 28,
+        "source_image_path": "data/real/10_x11.037828118002004y13.44389250657203_raw.png",
+        "bbox": [
+          396,
+          11,
+          411,
+          26
+        ],
+        "mask_path": "data/generated/val/masks/val_000048_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5121139140411589,
+          "x": 392.0,
+          "y": 7.0,
+          "scale": 0.9823917946991544,
+          "angle": 7.784340202002954
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 8,
+        "source_image_path": "data/real/10_x1.587828118002004y3.04389250657203_raw.png",
+        "bbox": [
+          412,
+          272,
+          455,
+          308
+        ],
+        "mask_path": "data/generated/val/masks/val_000048_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6616587856583436,
+          "x": 407.0,
+          "y": 265.0,
+          "scale": 1.1822968033352144,
+          "angle": 11.759999573610067
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 1846,
+      "background_source_image_path": "data/real/f01_2018-12-11-171611_X10_x5.792857y8.852100_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000049",
+    "image_path": "data/generated/val/images/val_000049.png",
+    "width": 640,
+    "height": 640,
+    "instances": [],
+    "hard_negatives": [
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          170,
+          433,
+          276,
+          541
+        ],
+        "alpha": 0.2124426776556028
+      }
+    ],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 5717,
+      "background_source_image_path": "data/real/f01_2018-12-21-072112_X10_x18.288200y5.143900_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000050",
+    "image_path": "data/generated/val/images/val_000050.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 99,
+        "source_image_path": "data/real/10_x14.187828118002004y3.04389250657203_raw.png",
+        "bbox": [
+          8,
+          212,
+          30,
+          236
+        ],
+        "mask_path": "data/generated/val/masks/val_000050_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6379440010094403,
+          "x": 4.0,
+          "y": 206.0,
+          "scale": 1.0919034238158163,
+          "angle": 11.357117941058808
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 6,
+        "source_image_path": "data/real/10_x1.587828118002004y12.14389250657203_raw.png",
+        "bbox": [
+          318,
+          501,
+          353,
+          535
+        ],
+        "mask_path": "data/generated/val/masks/val_000050_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8949946468559951,
+          "x": 313.0,
+          "y": 496.0,
+          "scale": 1.4893772549029187,
+          "angle": 32.36535627628449
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 3402,
+      "background_source_image_path": "data/real/f01_2018-12-21-052536_X10_x0.753058y1.576571_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000051",
+    "image_path": "data/generated/val/images/val_000051.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          277,
+          55,
+          350,
+          128
+        ],
+        "mask_path": "data/generated/val/masks/val_000051_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7848705974964979,
+          "x": 241.0,
+          "y": 44.0,
+          "scale": 1.417051340674595,
+          "angle": -15.102298809244472
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 122,
+        "source_image_path": "data/real/10_x2.637828118002004y2.39389250657203_raw.png",
+        "bbox": [
+          130,
+          427,
+          144,
+          445
+        ],
+        "mask_path": "data/generated/val/masks/val_000051_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.621440209814888,
+          "x": 125.0,
+          "y": 423.0,
+          "scale": 1.05514135196214,
+          "angle": 29.527862047785888
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 100,
+        "source_image_path": "data/real/10_x14.187828118002004y3.6938925065720296_raw.png",
+        "bbox": [
+          473,
+          397,
+          507,
+          442
+        ],
+        "mask_path": "data/generated/val/masks/val_000051_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.560146972193015,
+          "x": 464.0,
+          "y": 391.0,
+          "scale": 1.423823156886077,
+          "angle": 11.677292740819166
+        }
+      },
+      {
+        "instance_id": 3,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 80,
+        "source_image_path": "data/real/10_x13.137828118002005y3.6938925065720296_raw.png",
+        "bbox": [
+          121,
+          275,
+          133,
+          287
+        ],
+        "mask_path": "data/generated/val/masks/val_000051_inst_003.png",
+        "overlap_order": 3,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5966802454687106,
+          "x": 119.0,
+          "y": 272.0,
+          "scale": 0.6912796546983814,
+          "angle": -9.894622494110447
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 4477,
+      "background_source_image_path": "data/real/f01_2018-12-21-061555_X10_x5.758900y5.391300_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000052",
+    "image_path": "data/generated/val/images/val_000052.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 48,
+        "source_image_path": "data/real/10_x12.087828118002005y10.84389250657203_raw.png",
+        "bbox": [
+          313,
+          45,
+          378,
+          115
+        ],
+        "mask_path": "data/generated/val/masks/val_000052_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6421456670330089,
+          "x": 308.0,
+          "y": 40.0,
+          "scale": 1.170769549989799,
+          "angle": -1.3481966228708397
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          255,
+          351,
+          319,
+          408
+        ],
+        "mask_path": "data/generated/val/masks/val_000052_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6265278104501565,
+          "x": 246.0,
+          "y": 341.0,
+          "scale": 1.568584839579822,
+          "angle": 8.53528954222843
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          532,
+          247,
+          622,
+          332
+        ],
+        "mask_path": "data/generated/val/masks/val_000052_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7312334596433367,
+          "x": 520.0,
+          "y": 243.0,
+          "scale": 1.080631232940076,
+          "angle": 14.12855616785501
+        }
+      },
+      {
+        "instance_id": 3,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          554,
+          134,
+          603,
+          196
+        ],
+        "mask_path": "data/generated/val/masks/val_000052_inst_003.png",
+        "overlap_order": 3,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7335324388260687,
+          "x": 539.0,
+          "y": 122.0,
+          "scale": 1.0800883705068536,
+          "angle": 2.238667809749769
+        }
+      }
+    ],
+    "hard_negatives": [
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          115,
+          259,
+          182,
+          345
+        ],
+        "alpha": 0.22336295064664696
+      },
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          389,
+          415,
+          483,
+          484
+        ],
+        "alpha": 0.3324589220040957
+      },
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          121,
+          6,
+          181,
+          127
+        ],
+        "alpha": 0.43798127960201716
+      }
+    ],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 2253,
+      "background_source_image_path": "data/real/f01_2018-12-11-173316_X10_x4.655878y4.126602_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000053",
+    "image_path": "data/generated/val/images/val_000053.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 0,
+        "source_image_path": "data/real/10_x1.587828118002004y0.44389250657202983_raw.png",
+        "bbox": [
+          352,
+          59,
+          368,
+          74
+        ],
+        "mask_path": "data/generated/val/masks/val_000053_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.589853075952121,
+          "x": 350.0,
+          "y": 56.0,
+          "scale": 0.9733828727557596,
+          "angle": -12.639593975831096
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 4518,
+      "background_source_image_path": "data/real/f01_2018-12-21-061628_X10_x7.858900y17.741300_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000054",
+    "image_path": "data/generated/val/images/val_000054.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 127,
+        "source_image_path": "data/real/10_x2.637828118002004y5.64389250657203_raw.png",
+        "bbox": [
+          120,
+          381,
+          150,
+          413
+        ],
+        "mask_path": "data/generated/val/masks/val_000054_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.49625379721946244,
+          "x": 115.0,
+          "y": 376.0,
+          "scale": 1.0657164981262242,
+          "angle": 7.063977466342591
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 5027,
+      "background_source_image_path": "data/real/f01_2018-12-21-065235_X10_x7.825100y2.924300_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000055",
+    "image_path": "data/generated/val/images/val_000055.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 103,
+        "source_image_path": "data/real/10_x14.187828118002004y5.64389250657203_raw.png",
+        "bbox": [
+          353,
+          195,
+          398,
+          237
+        ],
+        "mask_path": "data/generated/val/masks/val_000055_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6376229328243307,
+          "x": 343.0,
+          "y": 186.0,
+          "scale": 1.6103269932746722,
+          "angle": 22.183389351625213
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          335,
+          109,
+          370,
+          145
+        ],
+        "mask_path": "data/generated/val/masks/val_000055_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.855242184663992,
+          "x": 329.0,
+          "y": 95.0,
+          "scale": 0.6472105610781171,
+          "angle": -30.02370070976796
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 44,
+        "source_image_path": "data/real/10_x12.087828118002005y0.44389250657202983_raw.png",
+        "bbox": [
+          57,
+          313,
+          76,
+          359
+        ],
+        "mask_path": "data/generated/val/masks/val_000055_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8160991405978462,
+          "x": 53.0,
+          "y": 309.0,
+          "scale": 1.2420807229569053,
+          "angle": -21.07327039368123
+        }
+      },
+      {
+        "instance_id": 3,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 35,
+        "source_image_path": "data/real/10_x11.037828118002004y4.99389250657203_raw.png",
+        "bbox": [
+          475,
+          328,
+          515,
+          398
+        ],
+        "mask_path": "data/generated/val/masks/val_000055_inst_003.png",
+        "overlap_order": 3,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7176838710440183,
+          "x": 468.0,
+          "y": 323.0,
+          "scale": 1.4057413223880109,
+          "angle": -6.692826153022235
+        }
+      },
+      {
+        "instance_id": 4,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 50,
+        "source_image_path": "data/real/10_x12.087828118002005y12.14389250657203_raw.png",
+        "bbox": [
+          568,
+          51,
+          595,
+          80
+        ],
+        "mask_path": "data/generated/val/masks/val_000055_inst_004.png",
+        "overlap_order": 4,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6541259685005556,
+          "x": 568.0,
+          "y": 42.0,
+          "scale": 1.055102279802074,
+          "angle": 31.15107210525399
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 2732,
+      "background_source_image_path": "data/real/f01_2018-12-11-175320_X10_x1.073300y7.383800_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000056",
+    "image_path": "data/generated/val/images/val_000056.png",
+    "width": 640,
+    "height": 640,
+    "instances": [],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 3507,
+      "background_source_image_path": "data/real/f01_2018-12-21-052658_X10_x4.953100y13.926535_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000057",
+    "image_path": "data/generated/val/images/val_000057.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 123,
+        "source_image_path": "data/real/10_x2.637828118002004y3.04389250657203_raw.png",
+        "bbox": [
+          33,
+          245,
+          69,
+          270
+        ],
+        "mask_path": "data/generated/val/masks/val_000057_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8576456072575861,
+          "x": 30.0,
+          "y": 238.0,
+          "scale": 1.1006538581957062,
+          "angle": -10.765591648916716
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          469,
+          489,
+          513,
+          538
+        ],
+        "mask_path": "data/generated/val/masks/val_000057_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5296194832842327,
+          "x": 459.0,
+          "y": 482.0,
+          "scale": 1.2166473734975178,
+          "angle": 8.243346166199505
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 4478,
+      "background_source_image_path": "data/real/f01_2018-12-21-061556_X10_x5.758900y4.741300_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000058",
+    "image_path": "data/generated/val/images/val_000058.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 78,
+        "source_image_path": "data/real/10_x13.137828118002005y2.39389250657203_raw.png",
+        "bbox": [
+          295,
+          591,
+          314,
+          615
+        ],
+        "mask_path": "data/generated/val/masks/val_000058_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6741270250655894,
+          "x": 288.0,
+          "y": 587.0,
+          "scale": 1.2746938757605015,
+          "angle": 19.75699618078508
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 106,
+        "source_image_path": "data/real/10_x14.187828118002004y7.593892506572031_raw.png",
+        "bbox": [
+          310,
+          11,
+          353,
+          48
+        ],
+        "mask_path": "data/generated/val/masks/val_000058_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.814168020565934,
+          "x": 309.0,
+          "y": 5.0,
+          "scale": 1.0149750511486102,
+          "angle": -33.27364006808686
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 107,
+        "source_image_path": "data/real/10_x14.187828118002004y8.24389250657203_raw.png",
+        "bbox": [
+          69,
+          462,
+          89,
+          481
+        ],
+        "mask_path": "data/generated/val/masks/val_000058_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7282967925751234,
+          "x": 67.0,
+          "y": 459.0,
+          "scale": 0.5559896500352587,
+          "angle": 15.929232089706453
+        }
+      },
+      {
+        "instance_id": 3,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          115,
+          216,
+          157,
+          252
+        ],
+        "mask_path": "data/generated/val/masks/val_000058_inst_003.png",
+        "overlap_order": 3,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6651585183938683,
+          "x": 106.0,
+          "y": 188.0,
+          "scale": 1.2304870827459042,
+          "angle": 20.283672013264766
+        }
+      },
+      {
+        "instance_id": 4,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 117,
+        "source_image_path": "data/real/10_x2.637828118002004y12.79389250657203_raw.png",
+        "bbox": [
+          218,
+          370,
+          246,
+          386
+        ],
+        "mask_path": "data/generated/val/masks/val_000058_inst_004.png",
+        "overlap_order": 4,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5524026219598213,
+          "x": 212.0,
+          "y": 364.0,
+          "scale": 1.3886325026877706,
+          "angle": 1.908565232285605
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 452,
+      "background_source_image_path": "data/real/f01_2018-12-11-154428_X10_x4.129979y14.626433_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000059",
+    "image_path": "data/generated/val/images/val_000059.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 73,
+        "source_image_path": "data/real/10_x13.137828118002005y10.84389250657203_raw.png",
+        "bbox": [
+          211,
+          204,
+          230,
+          229
+        ],
+        "mask_path": "data/generated/val/masks/val_000059_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7270807838287209,
+          "x": 207.0,
+          "y": 199.0,
+          "scale": 1.104588985231275,
+          "angle": 24.027158554542233
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 48,
+        "source_image_path": "data/real/10_x12.087828118002005y10.84389250657203_raw.png",
+        "bbox": [
+          193,
+          430,
+          245,
+          474
+        ],
+        "mask_path": "data/generated/val/masks/val_000059_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5255361607670502,
+          "x": 187.0,
+          "y": 428.0,
+          "scale": 1.2653830169132627,
+          "angle": -26.2498606518537
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 12,
+        "source_image_path": "data/real/10_x1.587828118002004y5.64389250657203_raw.png",
+        "bbox": [
+          403,
+          540,
+          413,
+          549
+        ],
+        "mask_path": "data/generated/val/masks/val_000059_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.836379214514063,
+          "x": 401.0,
+          "y": 536.0,
+          "scale": 0.6778480530727982,
+          "angle": 20.98412602775755
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 6240,
+      "background_source_image_path": "data/real/f01_2025-01-01-154945_X5_x10.028500y6.009600_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000060",
+    "image_path": "data/generated/val/images/val_000060.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 51,
+        "source_image_path": "data/real/10_x12.087828118002005y12.79389250657203_raw.png",
+        "bbox": [
+          148,
+          344,
+          185,
+          383
+        ],
+        "mask_path": "data/generated/val/masks/val_000060_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.49392191632749677,
+          "x": 137.0,
+          "y": 340.0,
+          "scale": 1.1175024716709463,
+          "angle": 32.96797924185973
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 15,
+        "source_image_path": "data/real/10_x1.587828118002004y7.593892506572031_raw.png",
+        "bbox": [
+          300,
+          273,
+          320,
+          302
+        ],
+        "mask_path": "data/generated/val/masks/val_000060_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6648446132294129,
+          "x": 293.0,
+          "y": 270.0,
+          "scale": 0.8142489503995586,
+          "angle": 17.431142103249393
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 100,
+        "source_image_path": "data/real/10_x14.187828118002004y3.6938925065720296_raw.png",
+        "bbox": [
+          48,
+          606,
+          65,
+          626
+        ],
+        "mask_path": "data/generated/val/masks/val_000060_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.45130851016969725,
+          "x": 45.0,
+          "y": 600.0,
+          "scale": 0.9970723313395473,
+          "angle": 29.33614897765562
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 5550,
+      "background_source_image_path": "data/real/f01_2018-12-21-071901_X10_x10.938200y-0.056100_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000061",
+    "image_path": "data/generated/val/images/val_000061.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 136,
+        "source_image_path": "data/real/10_x3.6878281180020043y1.7438925065720299_raw.png",
+        "bbox": [
+          192,
+          329,
+          217,
+          354
+        ],
+        "mask_path": "data/generated/val/masks/val_000061_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.817172916347716,
+          "x": 189.0,
+          "y": 324.0,
+          "scale": 0.6957092163809736,
+          "angle": 30.192963077592264
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 6,
+        "source_image_path": "data/real/10_x1.587828118002004y12.14389250657203_raw.png",
+        "bbox": [
+          210,
+          368,
+          243,
+          404
+        ],
+        "mask_path": "data/generated/val/masks/val_000061_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6134712386969254,
+          "x": 203.0,
+          "y": 365.0,
+          "scale": 1.4714301063354098,
+          "angle": -22.16495309058132
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 35,
+        "source_image_path": "data/real/10_x11.037828118002004y4.99389250657203_raw.png",
+        "bbox": [
+          339,
+          77,
+          355,
+          100
+        ],
+        "mask_path": "data/generated/val/masks/val_000061_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7851304175097463,
+          "x": 337.0,
+          "y": 73.0,
+          "scale": 0.551405579719122,
+          "angle": -11.249737368343794
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 5397,
+      "background_source_image_path": "data/real/f01_2018-12-21-071700_X10_x3.588200y12.293900_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000062",
+    "image_path": "data/generated/val/images/val_000062.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 7,
+        "source_image_path": "data/real/10_x1.587828118002004y2.39389250657203_raw.png",
+        "bbox": [
+          456,
+          536,
+          477,
+          549
+        ],
+        "mask_path": "data/generated/val/masks/val_000062_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6689061821833079,
+          "x": 453.0,
+          "y": 532.0,
+          "scale": 0.8427931786846145,
+          "angle": -6.623085049643697
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 2005,
+      "background_source_image_path": "data/real/f01_2018-12-11-171744_X10_x12.092797y12.035487_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000063",
+    "image_path": "data/generated/val/images/val_000063.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          237,
+          266,
+          281,
+          307
+        ],
+        "mask_path": "data/generated/val/masks/val_000063_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5820489655288483,
+          "x": 202.0,
+          "y": 254.0,
+          "scale": 1.088086811172987,
+          "angle": -3.03675110115623
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 82,
+        "source_image_path": "data/real/10_x13.137828118002005y4.99389250657203_raw.png",
+        "bbox": [
+          9,
+          254,
+          57,
+          304
+        ],
+        "mask_path": "data/generated/val/masks/val_000063_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6901536718755655,
+          "x": 3.0,
+          "y": 249.0,
+          "scale": 1.4861241288282412,
+          "angle": -6.096596051633117
+        }
+      }
+    ],
+    "hard_negatives": [
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          71,
+          245,
+          142,
+          346
+        ],
+        "alpha": 0.5243229661419345
+      },
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          524,
+          421,
+          611,
+          475
+        ],
+        "alpha": 0.47618954726427026
+      },
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          426,
+          125,
+          518,
+          245
+        ],
+        "alpha": 0.416766458835926
+      }
+    ],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 3543,
+      "background_source_image_path": "data/real/f01_2018-12-21-052727_X10_x6.003045y9.376592_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000064",
+    "image_path": "data/generated/val/images/val_000064.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 11,
+        "source_image_path": "data/real/10_x1.587828118002004y4.99389250657203_raw.png",
+        "bbox": [
+          161,
+          563,
+          184,
+          600
+        ],
+        "mask_path": "data/generated/val/masks/val_000064_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8903483512224054,
+          "x": 157.0,
+          "y": 558.0,
+          "scale": 1.505184486322564,
+          "angle": -17.461781149743526
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 123,
+        "source_image_path": "data/real/10_x2.637828118002004y3.04389250657203_raw.png",
+        "bbox": [
+          349,
+          509,
+          382,
+          532
+        ],
+        "mask_path": "data/generated/val/masks/val_000064_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8148198327201135,
+          "x": 343.0,
+          "y": 508.0,
+          "scale": 1.4059625568905387,
+          "angle": 19.811347385420817
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          524,
+          406,
+          563,
+          452
+        ],
+        "mask_path": "data/generated/val/masks/val_000064_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7633694179352624,
+          "x": 517.0,
+          "y": 388.0,
+          "scale": 0.7577206253073702,
+          "angle": 34.09783319311678
+        }
+      },
+      {
+        "instance_id": 3,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 123,
+        "source_image_path": "data/real/10_x2.637828118002004y3.04389250657203_raw.png",
+        "bbox": [
+          340,
+          416,
+          436,
+          495
+        ],
+        "mask_path": "data/generated/val/masks/val_000064_inst_003.png",
+        "overlap_order": 3,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8746183960621946,
+          "x": 329.0,
+          "y": 416.0,
+          "scale": 1.1827930879639397,
+          "angle": 15.807949457055546
+        }
+      },
+      {
+        "instance_id": 4,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 36,
+        "source_image_path": "data/real/10_x11.037828118002004y5.64389250657203_raw.png",
+        "bbox": [
+          306,
+          202,
+          329,
+          226
+        ],
+        "mask_path": "data/generated/val/masks/val_000064_inst_004.png",
+        "overlap_order": 4,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8834101261844683,
+          "x": 300.0,
+          "y": 197.0,
+          "scale": 1.3805134115781172,
+          "angle": 9.079008079901431
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 976,
+      "background_source_image_path": "data/real/f01_2018-12-11-160631_X10_x9.375109y11.050048_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000065",
+    "image_path": "data/generated/val/images/val_000065.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          122,
+          178,
+          185,
+          243
+        ],
+        "mask_path": "data/generated/val/masks/val_000065_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8650149601134451,
+          "x": 97.0,
+          "y": 168.0,
+          "scale": 1.023577485710567,
+          "angle": -8.763521924524014
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 56,
+        "source_image_path": "data/real/10_x12.087828118002005y3.04389250657203_raw.png",
+        "bbox": [
+          349,
+          378,
+          362,
+          390
+        ],
+        "mask_path": "data/generated/val/masks/val_000065_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5648890422131974,
+          "x": 346.0,
+          "y": 376.0,
+          "scale": 0.6140569150576938,
+          "angle": 23.07461800434567
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 130,
+        "source_image_path": "data/real/10_x2.637828118002004y7.593892506572031_raw.png",
+        "bbox": [
+          445,
+          113,
+          470,
+          134
+        ],
+        "mask_path": "data/generated/val/masks/val_000065_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6729191584368543,
+          "x": 438.0,
+          "y": 106.0,
+          "scale": 1.5326441725548818,
+          "angle": -8.011153767745082
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 3977,
+      "background_source_image_path": "data/real/f01_2018-12-21-054830_X10_x1.033062y2.909307_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000066",
+    "image_path": "data/generated/val/images/val_000066.png",
+    "width": 640,
+    "height": 640,
+    "instances": [],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 6166,
+      "background_source_image_path": "data/real/f01_2018-12-21-074245_X10_x19.069991y2.606743_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000067",
+    "image_path": "data/generated/val/images/val_000067.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 126,
+        "source_image_path": "data/real/10_x2.637828118002004y4.99389250657203_raw.png",
+        "bbox": [
+          73,
+          177,
+          102,
+          201
+        ],
+        "mask_path": "data/generated/val/masks/val_000067_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5675059579555164,
+          "x": 69.0,
+          "y": 171.0,
+          "scale": 1.0894529791845218,
+          "angle": 16.402865628642587
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 15,
+        "source_image_path": "data/real/10_x1.587828118002004y7.593892506572031_raw.png",
+        "bbox": [
+          536,
+          245,
+          624,
+          312
+        ],
+        "mask_path": "data/generated/val/masks/val_000067_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.466788358985557,
+          "x": 530.0,
+          "y": 241.0,
+          "scale": 1.4199585573376976,
+          "angle": 4.501791782536118
+        }
+      }
+    ],
+    "hard_negatives": [
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          515,
+          23,
+          630,
+          112
+        ],
+        "alpha": 0.5440809467749221
+      }
+    ],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 3411,
+      "background_source_image_path": "data/real/f01_2018-12-21-052543_X10_x1.803051y4.176548_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000068",
+    "image_path": "data/generated/val/images/val_000068.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 56,
+        "source_image_path": "data/real/10_x12.087828118002005y3.04389250657203_raw.png",
+        "bbox": [
+          571,
+          115,
+          628,
+          174
+        ],
+        "mask_path": "data/generated/val/masks/val_000068_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.4832163388145717,
+          "x": 556.0,
+          "y": 115.0,
+          "scale": 1.5861607438386105,
+          "angle": -34.62188526970286
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 122,
+        "source_image_path": "data/real/10_x2.637828118002004y2.39389250657203_raw.png",
+        "bbox": [
+          246,
+          96,
+          269,
+          122
+        ],
+        "mask_path": "data/generated/val/masks/val_000068_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6683520943588854,
+          "x": 243.0,
+          "y": 91.0,
+          "scale": 0.995722590214387,
+          "angle": 25.711435334133363
+        }
+      }
+    ],
+    "hard_negatives": [
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          321,
+          2,
+          372,
+          113
+        ],
+        "alpha": 0.3360104554989493
+      },
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          478,
+          80,
+          556,
+          197
+        ],
+        "alpha": 0.4282484213540948
+      }
+    ],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 5944,
+      "background_source_image_path": "data/real/f01_2018-12-21-073945_X10_x8.570000y7.156746_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000069",
+    "image_path": "data/generated/val/images/val_000069.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 119,
+        "source_image_path": "data/real/10_x2.637828118002004y14.09389250657203_raw.png",
+        "bbox": [
+          110,
+          329,
+          129,
+          350
+        ],
+        "mask_path": "data/generated/val/masks/val_000069_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6511562051765539,
+          "x": 106.0,
+          "y": 324.0,
+          "scale": 1.1316029613280534,
+          "angle": -13.240722985745847
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 135,
+        "source_image_path": "data/real/10_x3.6878281180020043y1.09389250657203_raw.png",
+        "bbox": [
+          408,
+          365,
+          427,
+          386
+        ],
+        "mask_path": "data/generated/val/masks/val_000069_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7647133236706232,
+          "x": 403.0,
+          "y": 360.0,
+          "scale": 1.0921116552486554,
+          "angle": -0.7159504138128681
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 129,
+        "source_image_path": "data/real/10_x2.637828118002004y6.9438925065720305_raw.png",
+        "bbox": [
+          57,
+          29,
+          71,
+          48
+        ],
+        "mask_path": "data/generated/val/masks/val_000069_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.571058566633829,
+          "x": 52.0,
+          "y": 26.0,
+          "scale": 0.7773342116601493,
+          "angle": 7.775332981810853
+        }
+      }
+    ],
+    "hard_negatives": [
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          95,
+          347,
+          175,
+          442
+        ],
+        "alpha": 0.28376310104993285
+      },
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          366,
+          171,
+          465,
+          233
+        ],
+        "alpha": 0.3853074755368911
+      }
+    ],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 4312,
+      "background_source_image_path": "data/real/f01_2018-12-21-061344_X10_x0.508900y2.791300_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000070",
+    "image_path": "data/generated/val/images/val_000070.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 28,
+        "source_image_path": "data/real/10_x11.037828118002004y13.44389250657203_raw.png",
+        "bbox": [
+          147,
+          266,
+          223,
+          370
+        ],
+        "mask_path": "data/generated/val/masks/val_000070_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6912225581578184,
+          "x": 129.0,
+          "y": 266.0,
+          "scale": 1.6387227037855603,
+          "angle": 16.45462129027625
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          92,
+          179,
+          141,
+          237
+        ],
+        "mask_path": "data/generated/val/masks/val_000070_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.47694096821807413,
+          "x": 52.0,
+          "y": 177.0,
+          "scale": 1.4699943314622181,
+          "angle": -12.632199669790964
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 19,
+      "background_source_image_path": "data/real/10_x11.037828118002004y-0.2061074934279702_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000071",
+    "image_path": "data/generated/val/images/val_000071.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          251,
+          154,
+          293,
+          195
+        ],
+        "mask_path": "data/generated/val/masks/val_000071_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7181301112318825,
+          "x": 228.0,
+          "y": 151.0,
+          "scale": 1.0429025388024902,
+          "angle": -19.432398035323235
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          519,
+          139,
+          575,
+          189
+        ],
+        "mask_path": "data/generated/val/masks/val_000071_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6230978654590911,
+          "x": 517.0,
+          "y": 131.0,
+          "scale": 0.6012445455444703,
+          "angle": -31.92026423905891
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 72,
+        "source_image_path": "data/real/10_x13.137828118002005y10.19389250657203_raw.png",
+        "bbox": [
+          560,
+          38,
+          586,
+          66
+        ],
+        "mask_path": "data/generated/val/masks/val_000071_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6763383085692811,
+          "x": 560.0,
+          "y": 34.0,
+          "scale": 0.5847568122895291,
+          "angle": -19.663876889940944
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 6341,
+      "background_source_image_path": "data/real/f09_2024-12-31-162056_X10_x6.623900y6.292900_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000072",
+    "image_path": "data/generated/val/images/val_000072.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 11,
+        "source_image_path": "data/real/10_x1.587828118002004y4.99389250657203_raw.png",
+        "bbox": [
+          263,
+          67,
+          277,
+          80
+        ],
+        "mask_path": "data/generated/val/masks/val_000072_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6030385866853356,
+          "x": 260.0,
+          "y": 63.0,
+          "scale": 0.7696276099523089,
+          "angle": -27.92194211969217
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 57,
+        "source_image_path": "data/real/10_x12.087828118002005y3.6938925065720296_raw.png",
+        "bbox": [
+          444,
+          450,
+          462,
+          465
+        ],
+        "mask_path": "data/generated/val/masks/val_000072_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5888137745706639,
+          "x": 442.0,
+          "y": 448.0,
+          "scale": 0.8025994150352758,
+          "angle": -30.386338596586675
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 126,
+        "source_image_path": "data/real/10_x2.637828118002004y4.99389250657203_raw.png",
+        "bbox": [
+          147,
+          543,
+          184,
+          574
+        ],
+        "mask_path": "data/generated/val/masks/val_000072_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8672811947359181,
+          "x": 146.0,
+          "y": 537.0,
+          "scale": 1.3472563229003103,
+          "angle": 26.57567160773891
+        }
+      },
+      {
+        "instance_id": 3,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          459,
+          497,
+          513,
+          547
+        ],
+        "mask_path": "data/generated/val/masks/val_000072_inst_003.png",
+        "overlap_order": 3,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.49222503022351505,
+          "x": 455.0,
+          "y": 487.0,
+          "scale": 0.5568766019794049,
+          "angle": 20.074642631934637
+        }
+      },
+      {
+        "instance_id": 4,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 0,
+        "source_image_path": "data/real/10_x1.587828118002004y0.44389250657202983_raw.png",
+        "bbox": [
+          134,
+          277,
+          171,
+          317
+        ],
+        "mask_path": "data/generated/val/masks/val_000072_inst_004.png",
+        "overlap_order": 4,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5612593898953674,
+          "x": 128.0,
+          "y": 270.0,
+          "scale": 1.3357629084648768,
+          "angle": -15.683327812048255
+        }
+      }
+    ],
+    "hard_negatives": [
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          487,
+          227,
+          572,
+          304
+        ],
+        "alpha": 0.43796171378212495
+      },
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          54,
+          82,
+          118,
+          201
+        ],
+        "alpha": 0.2738342784518676
+      }
+    ],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 5363,
+      "background_source_image_path": "data/real/f01_2018-12-21-071633_X10_x1.488200y6.443900_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000073",
+    "image_path": "data/generated/val/images/val_000073.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 98,
+        "source_image_path": "data/real/10_x14.187828118002004y2.39389250657203_raw.png",
+        "bbox": [
+          422,
+          168,
+          442,
+          214
+        ],
+        "mask_path": "data/generated/val/masks/val_000073_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6768943103429558,
+          "x": 406.0,
+          "y": 168.0,
+          "scale": 1.4469331001026824,
+          "angle": -34.31176307021362
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 111,
+        "source_image_path": "data/real/10_x2.637828118002004y1.09389250657203_raw.png",
+        "bbox": [
+          363,
+          532,
+          413,
+          568
+        ],
+        "mask_path": "data/generated/val/masks/val_000073_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.49683476274095295,
+          "x": 355.0,
+          "y": 531.0,
+          "scale": 1.15095127842415,
+          "angle": 15.479646297983878
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          83,
+          21,
+          138,
+          75
+        ],
+        "mask_path": "data/generated/val/masks/val_000073_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5264229028070089,
+          "x": 82.0,
+          "y": 6.0,
+          "scale": 0.8252619069873858,
+          "angle": -15.02425752091549
+        }
+      },
+      {
+        "instance_id": 3,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 61,
+        "source_image_path": "data/real/10_x12.087828118002005y6.29389250657203_raw.png",
+        "bbox": [
+          124,
+          138,
+          147,
+          165
+        ],
+        "mask_path": "data/generated/val/masks/val_000073_inst_003.png",
+        "overlap_order": 3,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8080250407128391,
+          "x": 120.0,
+          "y": 135.0,
+          "scale": 0.782345503753383,
+          "angle": -15.049515659794434
+        }
+      },
+      {
+        "instance_id": 4,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          183,
+          146,
+          234,
+          211
+        ],
+        "mask_path": "data/generated/val/masks/val_000073_inst_004.png",
+        "overlap_order": 4,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7571451586259672,
+          "x": 165.0,
+          "y": 120.0,
+          "scale": 1.1771010721586437,
+          "angle": -0.5153132464719823
+        }
+      }
+    ],
+    "hard_negatives": [
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          107,
+          48,
+          183,
+          168
+        ],
+        "alpha": 0.5479206905543196
+      },
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          226,
+          79,
+          286,
+          145
+        ],
+        "alpha": 0.5426814703693539
+      }
+    ],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 848,
+      "background_source_image_path": "data/real/f01_2018-12-11-160508_X10_x4.125169y8.449986_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000074",
+    "image_path": "data/generated/val/images/val_000074.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          414,
+          452,
+          450,
+          499
+        ],
+        "mask_path": "data/generated/val/masks/val_000074_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6799539372021735,
+          "x": 404.0,
+          "y": 395.0,
+          "scale": 1.4014898815087486,
+          "angle": -9.150151429381555
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 5677,
+      "background_source_image_path": "data/real/f01_2018-12-21-072041_X10_x16.188200y2.543900_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000075",
+    "image_path": "data/generated/val/images/val_000075.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 29,
+        "source_image_path": "data/real/10_x11.037828118002004y14.09389250657203_raw.png",
+        "bbox": [
+          276,
+          65,
+          296,
+          84
+        ],
+        "mask_path": "data/generated/val/masks/val_000075_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6791391340076625,
+          "x": 270.0,
+          "y": 59.0,
+          "scale": 1.2870297011647784,
+          "angle": -4.620096216688239
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 98,
+        "source_image_path": "data/real/10_x14.187828118002004y2.39389250657203_raw.png",
+        "bbox": [
+          476,
+          206,
+          501,
+          233
+        ],
+        "mask_path": "data/generated/val/masks/val_000075_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5488410926690184,
+          "x": 473.0,
+          "y": 203.0,
+          "scale": 0.8371440029469198,
+          "angle": -29.414049525046273
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 91,
+        "source_image_path": "data/real/10_x14.187828118002004y-0.8561074934279702_raw.png",
+        "bbox": [
+          457,
+          529,
+          540,
+          591
+        ],
+        "mask_path": "data/generated/val/masks/val_000075_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.799971349159136,
+          "x": 451.0,
+          "y": 529.0,
+          "scale": 1.0948935851516668,
+          "angle": -27.476637875485668
+        }
+      },
+      {
+        "instance_id": 3,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 98,
+        "source_image_path": "data/real/10_x14.187828118002004y2.39389250657203_raw.png",
+        "bbox": [
+          232,
+          328,
+          253,
+          359
+        ],
+        "mask_path": "data/generated/val/masks/val_000075_inst_003.png",
+        "overlap_order": 3,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8069242409090067,
+          "x": 228.0,
+          "y": 324.0,
+          "scale": 1.2328909818836606,
+          "angle": -6.488024705466801
+        }
+      },
+      {
+        "instance_id": 4,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 106,
+        "source_image_path": "data/real/10_x14.187828118002004y7.593892506572031_raw.png",
+        "bbox": [
+          176,
+          341,
+          204,
+          370
+        ],
+        "mask_path": "data/generated/val/masks/val_000075_inst_004.png",
+        "overlap_order": 4,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.597815975192704,
+          "x": 173.0,
+          "y": 338.0,
+          "scale": 0.6950589880842993,
+          "angle": 7.335988859777595
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 414,
+      "background_source_image_path": "data/real/f01_2018-12-11-154359_X10_x2.030061y6.826498_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000076",
+    "image_path": "data/generated/val/images/val_000076.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          123,
+          315,
+          179,
+          370
+        ],
+        "mask_path": "data/generated/val/masks/val_000076_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7447036869668369,
+          "x": 96.0,
+          "y": 306.0,
+          "scale": 1.5854278992306121,
+          "angle": 20.020755500846995
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 74,
+        "source_image_path": "data/real/10_x13.137828118002005y11.49389250657203_raw.png",
+        "bbox": [
+          223,
+          536,
+          245,
+          551
+        ],
+        "mask_path": "data/generated/val/masks/val_000076_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.5413328277383469,
+          "x": 220.0,
+          "y": 531.0,
+          "scale": 0.7574618698843503,
+          "angle": -14.404248378048397
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 4134,
+      "background_source_image_path": "data/real/f01_2018-12-21-055036_X10_x8.383090y1.609354_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000077",
+    "image_path": "data/generated/val/images/val_000077.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 117,
+        "source_image_path": "data/real/10_x2.637828118002004y12.79389250657203_raw.png",
+        "bbox": [
+          528,
+          442,
+          550,
+          484
+        ],
+        "mask_path": "data/generated/val/masks/val_000077_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6016060594829885,
+          "x": 517.0,
+          "y": 440.0,
+          "scale": 0.8709862538469411,
+          "angle": -29.941028705253736
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          79,
+          369,
+          123,
+          425
+        ],
+        "mask_path": "data/generated/val/masks/val_000077_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6469834903873235,
+          "x": 65.0,
+          "y": 365.0,
+          "scale": 0.8022023240605742,
+          "angle": 13.877648553199537
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          451,
+          383,
+          487,
+          420
+        ],
+        "mask_path": "data/generated/val/masks/val_000077_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.4985795993274986,
+          "x": 450.0,
+          "y": 358.0,
+          "scale": 0.7796102743264346,
+          "angle": -18.62096654032358
+        }
+      },
+      {
+        "instance_id": 3,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 52,
+        "source_image_path": "data/real/10_x12.087828118002005y13.44389250657203_raw.png",
+        "bbox": [
+          554,
+          319,
+          578,
+          335
+        ],
+        "mask_path": "data/generated/val/masks/val_000077_inst_003.png",
+        "overlap_order": 3,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7512789493146003,
+          "x": 552.0,
+          "y": 317.0,
+          "scale": 0.6594620284475038,
+          "angle": 31.50144151349267
+        }
+      },
+      {
+        "instance_id": 4,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 79,
+        "source_image_path": "data/real/10_x13.137828118002005y3.04389250657203_raw.png",
+        "bbox": [
+          393,
+          272,
+          446,
+          325
+        ],
+        "mask_path": "data/generated/val/masks/val_000077_inst_004.png",
+        "overlap_order": 4,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.45395934949072014,
+          "x": 387.0,
+          "y": 266.0,
+          "scale": 1.4735227485050677,
+          "angle": 4.79751481872667
+        }
+      }
+    ],
+    "hard_negatives": [
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          275,
+          171,
+          322,
+          219
+        ],
+        "alpha": 0.5323476340315678
+      }
+    ],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 4136,
+      "background_source_image_path": "data/real/f01_2018-12-21-055038_X10_x8.383052y3.559300_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000078",
+    "image_path": "data/generated/val/images/val_000078.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 8,
+        "source_image_path": "data/real/10_x1.587828118002004y3.04389250657203_raw.png",
+        "bbox": [
+          437,
+          292,
+          456,
+          310
+        ],
+        "mask_path": "data/generated/val/masks/val_000078_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.8612180375523714,
+          "x": 434.0,
+          "y": 288.0,
+          "scale": 0.898914238623711,
+          "angle": 12.24891721494729
+        }
+      },
+      {
+        "instance_id": 1,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 84,
+        "source_image_path": "data/real/10_x13.137828118002005y6.29389250657203_raw.png",
+        "bbox": [
+          456,
+          143,
+          485,
+          171
+        ],
+        "mask_path": "data/generated/val/masks/val_000078_inst_001.png",
+        "overlap_order": 1,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7164622585337251,
+          "x": 455.0,
+          "y": 137.0,
+          "scale": 0.7588538919515527,
+          "angle": 16.487015108961383
+        }
+      },
+      {
+        "instance_id": 2,
+        "category_id": 1,
+        "source_type": "procedural",
+        "source_image_id": null,
+        "source_image_path": null,
+        "bbox": [
+          291,
+          302,
+          372,
+          383
+        ],
+        "mask_path": "data/generated/val/masks/val_000078_inst_002.png",
+        "overlap_order": 2,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7014643139354082,
+          "x": 271.0,
+          "y": 286.0,
+          "scale": 1.3612682699444592,
+          "angle": -1.9514899793719032
+        }
+      },
+      {
+        "instance_id": 3,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 24,
+        "source_image_path": "data/real/10_x11.037828118002004y10.84389250657203_raw.png",
+        "bbox": [
+          330,
+          36,
+          343,
+          57
+        ],
+        "mask_path": "data/generated/val/masks/val_000078_inst_003.png",
+        "overlap_order": 3,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.6854258124504903,
+          "x": 325.0,
+          "y": 33.0,
+          "scale": 1.1635193331408296,
+          "angle": -21.86460751092931
+        }
+      },
+      {
+        "instance_id": 4,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 113,
+        "source_image_path": "data/real/10_x2.637828118002004y10.19389250657203_raw.png",
+        "bbox": [
+          166,
+          478,
+          223,
+          556
+        ],
+        "mask_path": "data/generated/val/masks/val_000078_inst_004.png",
+        "overlap_order": 4,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.7330617732062548,
+          "x": 162.0,
+          "y": 472.0,
+          "scale": 1.6415796990577445,
+          "angle": 19.09137014142164
+        }
+      }
+    ],
+    "hard_negatives": [
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          401,
+          275,
+          470,
+          391
+        ],
+        "alpha": 0.24491729799588519
+      },
+      {
+        "source_type": "hard_negative",
+        "bbox": [
+          448,
+          532,
+          567,
+          615
+        ],
+        "alpha": 0.31336168472763265
+      }
+    ],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 5735,
+      "background_source_image_path": "data/real/f01_2018-12-21-072126_X10_x19.338200y5.793900_raw.png"
+    }
+  },
+  {
+    "image_id": "val_000079",
+    "image_path": "data/generated/val/images/val_000079.png",
+    "width": 640,
+    "height": 640,
+    "instances": [
+      {
+        "instance_id": 0,
+        "category_id": 1,
+        "source_type": "real_patch",
+        "source_image_id": 123,
+        "source_image_path": "data/real/10_x2.637828118002004y3.04389250657203_raw.png",
+        "bbox": [
+          251,
+          481,
+          286,
+          495
+        ],
+        "mask_path": "data/generated/val/masks/val_000079_inst_000.png",
+        "overlap_order": 0,
+        "generation_seed": 1042,
+        "local_photometric": {
+          "alpha": 0.4713188745164398,
+          "x": 249.0,
+          "y": 472.0,
+          "scale": 1.1491188339425777,
+          "angle": -28.861305032799596
+        }
+      }
+    ],
+    "hard_negatives": [],
+    "metadata": {
+      "split": "val",
+      "seed": 1042,
+      "background_source_image_id": 1595,
+      "background_source_image_path": "data/real/f01_2018-12-11-165607_X10_x16.800000y4.550200_raw.png"
+    }
+  }
+]

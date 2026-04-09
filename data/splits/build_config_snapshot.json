@@ -1,0 +1,85 @@
+{
+  "seed": 42,
+  "experiment_name": "flake_pretrain",
+  "image_extensions": [
+    ".png",
+    ".jpg",
+    ".jpeg",
+    ".tif",
+    ".tiff",
+    ".bmp"
+  ],
+  "paths": {
+    "real_dir": "data/real",
+    "generated_dir": "data/generated",
+    "splits_dir": "data/splits",
+    "outputs_dir": "outputs",
+    "checkpoints_dir": "outputs/checkpoints",
+    "metrics_dir": "outputs/metrics",
+    "previews_dir": "outputs/previews",
+    "reports_dir": "outputs/reports",
+    "pseudo_labels_dir": "outputs/pseudo_labels"
+  },
+  "mining": {
+    "max_images": null,
+    "min_area_px": 120,
+    "max_area_ratio": 0.12,
+    "min_solidity": 0.5,
+    "min_aspect_ratio": 0.15,
+    "max_aspect_ratio": 6.5,
+    "residual_blur_ksize": 41,
+    "morph_ksize": 3,
+    "max_patches": 1800,
+    "preview_count": 24
+  },
+  "synth": {
+    "crop_size": [
+      640,
+      640
+    ],
+    "train_images": 400,
+    "val_images": 80,
+    "min_instances": 0,
+    "max_instances": 5,
+    "real_patch_prob": 0.75,
+    "procedural_prob": 0.25,
+    "hard_negative_prob": 0.35,
+    "hard_negative_max_per_image": 3,
+    "alpha_min": 0.45,
+    "alpha_max": 0.9,
+    "blur_prob": 0.25,
+    "noise_prob": 0.3,
+    "vignetting_prob": 0.2,
+    "intensity_drift_prob": 0.25
+  },
+  "model": {
+    "family": "maskrcnn",
+    "size": "small",
+    "num_classes": 2,
+    "score_thresh": 0.5
+  },
+  "train": {
+    "batch_size": 2,
+    "num_workers": 0,
+    "lr": 0.0001,
+    "weight_decay": 0.0001,
+    "epochs": 6,
+    "max_train_steps_per_epoch": null,
+    "max_val_steps": null,
+    "preview_count": 8,
+    "mixed_precision": false,
+    "device_override": null
+  },
+  "ssl": {
+    "enabled": false,
+    "method": "simclr",
+    "epochs": 1,
+    "batch_size": 32,
+    "crop_size": 224
+  },
+  "self_training": {
+    "enabled": false,
+    "confidence_threshold": 0.9,
+    "max_predictions": 200
+  }
+}

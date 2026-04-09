@@ -1,0 +1,10 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "set": true,
+        "mkdir": true,
+        "touch": true,
+        "command": true,
+        "uv": true,
+        "printf": true
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "seed": 42,
+  "indexed_real_images": 6353,
+  "patch_bank_size": 1800,
+  "train_images": 400,
+  "val_images": 80,
+  "train_instances": 1022,
+  "val_instances": 210
+}
