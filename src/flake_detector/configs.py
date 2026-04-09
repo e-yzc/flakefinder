@@ -9,6 +9,7 @@ import json
 @dataclass
 class PathsConfig:
     real_dir: str = "data/real"
+    labeled_dir: str = "labeled"
     generated_dir: str = "data/generated"
     splits_dir: str = "data/splits"
     outputs_dir: str = "outputs"

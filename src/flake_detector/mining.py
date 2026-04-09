@@ -291,3 +291,53 @@ def mine_patch_bank(
         cv2.imwrite(str(preview_target), cv2.cvtColor(preview_canvas, cv2.COLOR_RGB2BGR))
 
     return patch_manifest
+
+
+def load_labeled_patch_bank(labeled_dir: str | Path) -> list[dict[str, Any]]:
+    labeled_root = Path(labeled_dir)
+    images_dir = labeled_root / "images"
+    masks_dir = labeled_root / "masks"
+    if not images_dir.exists() or not masks_dir.exists():
+        return []
+
+    mask_lookup = {path.stem: path for path in masks_dir.glob("*.png")}
+    entries: list[dict[str, Any]] = []
+
+    image_paths = sorted(path for path in images_dir.iterdir() if path.is_file())
+    for patch_id, image_path in enumerate(image_paths):
+        if "_annotated" not in image_path.stem:
+            continue
+        source_stem = image_path.stem.removesuffix("_annotated")
+        mask_key = f"{source_stem}_mask"
+        mask_path = mask_lookup.get(mask_key)
+        if mask_path is None:
+            continue
+
+        mask = cv2.imread(str(mask_path), cv2.IMREAD_GRAYSCALE)
+        if mask is None:
+            raise ValueError(f"Failed to read labeled mask: {mask_path}")
+        box = mask_to_box(mask)
+        if box is None:
+            continue
+
+        entries.append(
+            {
+                "patch_id": patch_id,
+                "patch_image_path": str(image_path),
+                "patch_mask_path": str(mask_path),
+                "source_image_id": source_stem,
+                "source_image_path": str(image_path),
+                "source_bbox": box,
+                "patch_bbox": box,
+                "region": {
+                    "bbox": box,
+                    "area": float((mask > 0).sum()),
+                    "solidity": 1.0,
+                    "perimeter": 0.0,
+                    "score": 1.0,
+                },
+                "source_type": "manual_label",
+            }
+        )
+
+    return entries

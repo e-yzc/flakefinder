@@ -70,6 +70,8 @@ Primary outputs:
 - `outputs/previews/mining_preview.png`
 - `outputs/previews/generated_train_preview.png`
 
+If `labeled/images` and `labeled/masks` exist, Stage B automatically merges those manual labels into the patch bank before synthetic generation.
+
 
 ## Manual Labeling App
 
@@ -92,6 +94,7 @@ Outputs:
 - `labeled/masks/<name>_mask.png`
 
 A filename check is used to avoid duplicate work (e.g., `img.png` maps to `img_annotated.png`).
+These labeled image/mask pairs are consumed automatically in Stage B by `build_dataset.py`.
 
 ## Training
 
