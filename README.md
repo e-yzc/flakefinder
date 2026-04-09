@@ -70,6 +70,29 @@ Primary outputs:
 - `outputs/previews/mining_preview.png`
 - `outputs/previews/generated_train_preview.png`
 
+
+## Manual Labeling App
+
+Use the lightweight OpenCV annotator to manually label flakes on real images.
+
+```bash
+uv run python annotate_dataset.py --source-dir data/real --labeled-dir labeled
+```
+
+Controls:
+- Left click: add polygon vertex.
+- Middle click: close + commit polygon (saved immediately).
+- Right click: remove last vertex.
+- `n`: move to next random unlabeled image.
+- `r`: reset current mask.
+- `q`: quit.
+
+Outputs:
+- `labeled/images/<name>_annotated.<ext>`
+- `labeled/masks/<name>_mask.png`
+
+A filename check is used to avoid duplicate work (e.g., `img.png` maps to `img_annotated.png`).
+
 ## Training
 
 Trains class-agnostic Mask R-CNN with one model family and two sizes:
