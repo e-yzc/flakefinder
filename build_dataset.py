@@ -13,7 +13,12 @@ if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
 from flake_detector.configs import load_config, save_config_snapshot  # noqa: E402
-from flake_detector.mining import build_image_index, mine_patch_bank, save_index_preview_grid  # noqa: E402
+from flake_detector.mining import (  # noqa: E402
+    build_image_index,
+    load_labeled_patch_bank,
+    mine_patch_bank,
+    save_index_preview_grid,
+)
 from flake_detector.synth_data import generate_hybrid_dataset  # noqa: E402
 from flake_detector.utils import ensure_dirs, save_json, set_seed  # noqa: E402
 
@@ -97,13 +102,18 @@ def main() -> None:
     )
 
     print("[Stage B] Mining candidate regions and building patch bank...", flush=True)
-    patch_bank = mine_patch_bank(
+    mined_patch_bank = mine_patch_bank(
         image_index=image_index,
         patch_bank_dir=Path(cfg.paths.splits_dir) / "patch_bank",
         cfg=cfg.mining,
         preview_path=Path(cfg.paths.previews_dir) / "mining_preview.png",
     )
-    print(f"[Stage B] Patch bank size: {len(patch_bank)}", flush=True)
+    labeled_patch_bank = load_labeled_patch_bank(cfg.paths.labeled_dir)
+    patch_bank = [*labeled_patch_bank, *mined_patch_bank]
+    print(
+        f"[Stage B] Patch bank size: total={len(patch_bank)} labeled={len(labeled_patch_bank)} mined={len(mined_patch_bank)}",
+        flush=True,
+    )
 
     print(
         f"[Stage C] Generating hybrid dataset (train={cfg.synth.train_images}, val={cfg.synth.val_images})...",
